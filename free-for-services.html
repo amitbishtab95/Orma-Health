@@ -368,22 +368,28 @@
     <script src="https://kit.fontawesome.com/8824f22092.js" crossorigin="anonymous"></script>
     <script>
         const calculate = () => {
-            var x = document.getElementById("#calculateInput").value;
-            // console.log(x);
+            var x = document.getElementById("calculateInput").value;
+            console.log(x)
             var firstvalue = 19 * x;
             var secondvalue = 62 * 12 * x;
             var thirdvalue = 51 * 12 * x;
 
             document.getElementById("firstValue").innerHTML = firstvalue;
-            document.getElementById("secondValue").innerHTML = secondvalue;
-            document.getElementById("thirdValue").innerHTML = thirdvalue;
+            document.getElementById(
+                "secondValue").innerHTML = secondvalue;
+            document.getElementById("thirdValue").innerHTML =
+                thirdvalue;
 
             var tr = firstvalue + secondvalue + thirdvalue;
-            document.getElementById("totalrevenue").innerHTML = tr;
+            document.getElementById("totalRevenue")
+                .innerHTML = tr;
 
             var feevalue = 30 * x;
-            document.getElementById("firstValue").innerHTML = feevalue;
-            document.getElementById("profitValue").innerHTML = tr - feevalue;
+            // document.querySelector('#feeValue').innerHTML = feevalue
+            document.getElementById("feeValue").innerHTML = feevalue;
+            document
+                .getElementById("profitValue").innerHTML = tr - feevalue;
+
         };
     </script>
 </body>
