@@ -61,6 +61,7 @@
   background-color: #93c1f9;
   border-bottom-left-radius: 40%;
   padding-bottom: 2%;
+  /* width: 100%; */
 }
 
 /* earning section */
@@ -136,7 +137,6 @@
 }
 form .form-row {
   display: flex;
-  /* justify-content:; */
 }
 form .form-row div {
   width: 47%;
@@ -152,7 +152,6 @@ form .form-row div:nth-child(2) {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  /* font-size: 16px; */
   line-height: 24px;
   color: #444150;
   margin-bottom: 1%;
@@ -167,4 +166,108 @@ form .form-row div:nth-child(2) {
 }
 .form-start form button:hover {
   background: #222963;
+}
+
+/* Responsive tab view */
+@media (max-width: 768px) {
+  .inneraffiliateLandingPage {
+    flex-direction: column-reverse;
+  }
+  .affiliateLandingPage-content {
+    width: 100%;
+    padding-right: 8%;
+    margin-top: 4%;
+  }
+  .affiliateLandingPage-heading h1 {
+    line-height: 120%;
+    font-size: 1.7rem;
+  }
+  .affiliateLandingPage-heading p {
+    font-size: 0.5rem;
+  }
+  .affiliateLandingPageBtn button {
+    width: 30%;
+  }
+  .earningHeading {
+    width: 100%;
+  }
+  .earningHeading h1 {
+    font-size: 1.7rem !important;
+  }
+  .earningHeading p {
+    padding: 0 15%;
+    font-size: 0.5rem;
+  }
+  .form-box-inner h2 {
+    font-size: 1.7rem;
+  }
+  .affiliateLandingPageImage img {
+    width: 100%;
+    height: 50vh !important;
+  }
+  .affiliateLandingPageImage {
+    width: 100%;
+    height: 50%;
+  }
+}
+/* Responsive Mobile view */
+@media (max-width: 450px) {
+  .affiliateLandingPageImage img {
+    width: 100%;
+  }
+
+  .affiliateLandingPage-content {
+    width: 100%;
+    padding-right: 8%;
+    margin-top: 4%;
+  }
+  .affiliateLandingPage-heading h1 {
+    line-height: 120%;
+    font-size: 1.5rem;
+  }
+  .affiliateLandingPage-heading p {
+    font-size: 0.3rem;
+  }
+  .affiliateLandingPageBtn {
+    display: flex;
+    justify-content: center;
+  }
+  .affiliateLandingPageBtn button {
+    width: 50%;
+  }
+  .earningHeading {
+    width: 100%;
+  }
+  .earningHeading h1 {
+    font-size: 1.5rem !important;
+  }
+  .earningHeading p {
+    padding: 0 10%;
+    font-size: 0.5rem;
+    /* font-weight: lighter; */
+    line-height: 120%;
+    /* display: none; */
+  }
+  .form-box-inner h2 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .form-box {
+    width: 85%;
+  }
+  form .form-row {
+    flex-direction: column;
+  }
+  form .form-row div {
+    width: 100%;
+  }
+  form .form-row div:nth-child(2) {
+    margin-left: 0;
+  }
+  .form-start form label {
+    font-size: 0.5rem;
+  }
+  .form-start form button {
+    width: 40%;
+  }
 }

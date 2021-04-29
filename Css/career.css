@@ -43,7 +43,7 @@ body {
   align-items: center;
   padding: 1%;
 }
-.careerSection-content-heading {
+.careerSection-content-heading h2 {
   margin-top: 4%;
   margin-bottom: 3%;
   font-family: "Poppins";
@@ -80,7 +80,7 @@ body {
   margin-bottom: 6%;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 130%;
   color: #1b2050;
   margin-bottom: 4%;
@@ -117,4 +117,48 @@ body {
   font-size: 1rem;
   font-weight: 500;
   color: #1b2050;
+}
+
+/* Responsive tab view */
+@media (max-width: 768px) {
+  .career-cards {
+    justify-content: space-around;
+  }
+  .position-cards {
+    width: 55%;
+    margin-bottom: 3%;
+  }
+}
+/* Responsive mobile view */
+@media (max-width: 450px) {
+  body {
+    overflow-x: hidden;
+  }
+  .career-cards {
+    justify-content: space-around;
+  }
+  .position-cards {
+    width: 100%;
+    margin-bottom: 3%;
+  }
+  .careerSection-heading h1 {
+    font-size: 1.3rem;
+  }
+  .careerSection-content-heading {
+    margin-bottom: 4% !important;
+  }
+  .careerSection-content-heading h2 {
+    font-size: 1rem;
+  }
+  .careerSection-content-heading h2::after {
+    width: 60px;
+    margin-top: 3%;
+  }
+  .position-cards .position-cards-heading {
+    font-size: xx-small !important;
+  }
+  .opening-body p {
+    font-size: 1px;
+    line-height: 150%;
+  }
 }

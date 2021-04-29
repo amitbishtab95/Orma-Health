@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-* {
+*,
+*::before,
+*::after {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+html {
+  font-size: 16px;
+}
 /* about section */
 .aboutSection {
   width: 100%;
@@ -97,6 +102,7 @@
   width: 28%;
   position: relative;
   margin-right: 1rem;
+  margin-bottom: 2%;
 }
 .photoSectionPart-text {
   position: absolute;
@@ -118,12 +124,13 @@
   background-color: #2fab73;
   margin-top: 10px;
 }
-.photoSectionPart-text p {
+.photoSectionPart-text > p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: normal;
   line-height: 130%;
   color: #ffffff;
+  /* font-size: 4rem; */
 }
 
 .photoSectionPart-topInner img,
@@ -138,4 +145,98 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+}
+
+/* Responsive tablet view */
+
+@media (max-width: 768px) {
+  .photoSectionPart-text {
+    position: absolute;
+    bottom: 0;
+    left: 3%;
+    /* background-color: lawngreen; */
+  }
+
+  .photoSectionPart-text > h6 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-size: xx-small !important;
+    font-weight: 600;
+    line-height: 130%;
+    color: #ffffff;
+  }
+  .photoSectionPart-text h6::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    display: block;
+    background-color: #2fab73;
+    margin-top: 5px;
+  }
+  .photoSectionPart-text > p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-size: 0.1% !important;
+    font-weight: normal;
+    line-height: 130%;
+    color: #ffffff;
+  }
+  .photoSectionPart-bottomInner,
+  .photoSectionPart-topInner {
+    margin-right: 3%;
+    width: 35%;
+  }
+  .photoSectionPart-topInner img,
+  .photoSectionPart-bottomInner img {
+    width: 120%;
+    height: 120%;
+    margin-bottom: 2%;
+  }
+}
+
+/* Responsive Mobile View */
+@media (max-width: 450px) {
+  .innerAboutPhotoSection {
+    align-items: center;
+  }
+
+  .photoSectionPart {
+    width: 100%;
+    background-color: lightblue;
+    /* align-items: center; */
+  }
+  .photoSectionPart-top {
+    flex-direction: column;
+  }
+  .photoSectionPart-text {
+    position: absolute;
+    bottom: 0;
+    left: 3%;
+  }
+  .photoSectionPart-text > h6 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: 130%; */
+  }
+  .photoSectionPart-text h6::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    display: block;
+    background-color: #2fab73;
+    margin-top: 10px;
+  }
+  .photoSectionPart-text > p {
+    /* color: #ff0000; */
+    font-size: 0.2px !important;
+  }
+  .photoSectionPart-topInner,
+  .photoSectionPart-bottomInner {
+    width: 45%;
+  }
+  .photoSectionPart-topInner img,
+  .photoSectionPart-bottomInner img {
+    margin-bottom: 2%;
+  }
 }
