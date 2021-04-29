@@ -183,7 +183,7 @@ form .form-row div:nth-child(2) {
     font-size: 1.7rem;
   }
   .affiliateLandingPage-heading p {
-    font-size: 0.5rem;
+    font-size: 1.3rem;
   }
   .affiliateLandingPageBtn button {
     width: 30%;
@@ -196,7 +196,7 @@ form .form-row div:nth-child(2) {
   }
   .earningHeading p {
     padding: 0 15%;
-    font-size: 0.5rem;
+    font-size: 1.3rem;
   }
   .form-box-inner h2 {
     font-size: 1.7rem;
@@ -226,7 +226,7 @@ form .form-row div:nth-child(2) {
     font-size: 1.5rem;
   }
   .affiliateLandingPage-heading p {
-    font-size: 0.3rem;
+    font-size: 1rem;
   }
   .affiliateLandingPageBtn {
     display: flex;
@@ -243,7 +243,7 @@ form .form-row div:nth-child(2) {
   }
   .earningHeading p {
     padding: 0 10%;
-    font-size: 0.5rem;
+    font-size: 1rem;
     /* font-weight: lighter; */
     line-height: 120%;
     /* display: none; */
@@ -265,7 +265,7 @@ form .form-row div:nth-child(2) {
     margin-left: 0;
   }
   .form-start form label {
-    font-size: 0.5rem;
+    font-size: 0.8rem;
   }
   .form-start form button {
     width: 40%;
