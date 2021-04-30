@@ -265,7 +265,7 @@ form .form-row div:nth-child(2) {
     margin-left: 0;
   }
   .form-start form label {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .form-start form button {
     width: 40%;

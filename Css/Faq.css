@@ -109,6 +109,7 @@ body {
 .inner_faq {
   width: 73%;
   /* background-color: mediumseagreen; */
+  margin: auto;
 }
 .faq_heading {
   width: 100%;
@@ -181,4 +182,42 @@ body {
   line-height: 167.5%;
   /* text-transform: capitalize; */
   color: #484848;
+}
+
+/* Reponsive Tab View */
+@media (max-width: 768px) {
+  .innerFaqHeading h1 {
+    font-size: 1.8rem;
+  }
+  .innerFaqHeading p {
+    font-size: 1.3rem;
+  }
+  .inner_faq {
+    width: 85%;
+    /* background-color: blue; */
+  }
+  .accordion-body {
+    font-size: 1rem;
+  }
+}
+
+/* Reponsive Mobile View */
+@media (max-width: 450px) {
+  .innerFaqHeading h1 {
+    font-size: 1.5rem;
+  }
+  .innerFaqHeading p {
+    font-size: 1rem;
+  }
+  .inner_faq {
+    width: 90%;
+    /* background-color: blue; */
+  }
+  .accordion-item button {
+    font-size: 1rem;
+    /* text-align: justify; */
+  }
+  .accordion-body {
+    font-size: 1rem;
+  }
 }

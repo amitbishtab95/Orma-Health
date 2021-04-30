@@ -26,6 +26,8 @@ body {
 .careerSection-heading {
   margin-top: 4%;
   margin-bottom: 3%;
+  text-align: center;
+  width: 80%;
 }
 .careerSection-heading h1 {
   font-family: "Poppins";
@@ -33,6 +35,16 @@ body {
   font-weight: 600;
   line-height: 130%;
   color: #1b2050;
+  margin-bottom: 2%;
+}
+.careerSection-heading p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  line-height: 167.5%;
+  color: #484848;
+  margin-bottom: 5%;
+  text-transform: capitalize;
 }
 .careerSection-content {
   width: 90%;
@@ -121,12 +133,29 @@ body {
 
 /* Responsive tab view */
 @media (max-width: 768px) {
+  .careerSection-heading h1 {
+    font-size: 1.8rem;
+  }
+  .careerSection-heading p {
+    font-size: 1.3rem;
+  }
+  .careerSection-content-heading h2 {
+    font-size: 1.7rem;
+  }
+
   .career-cards {
     justify-content: space-around;
   }
   .position-cards {
     width: 55%;
     margin-bottom: 3%;
+  }
+  .position-cards h2 {
+    font-size: 1.4rem;
+  }
+  .opening-body p {
+    font-size: 1.3rem;
+    line-height: 150%;
   }
 }
 /* Responsive mobile view */
@@ -141,24 +170,39 @@ body {
     width: 100%;
     margin-bottom: 3%;
   }
-  .careerSection-heading h1 {
-    font-size: 1.3rem;
+  .careerSection-heading {
+    margin-top: 6%;
   }
+  .careerSection-heading h1 {
+    font-size: 1.5rem;
+    /* margin-top: 4%; */
+  }
+  .careerSection-heading p {
+    font-size: 1rem;
+    width: 95%;
+    margin: auto;
+  }
+  .careerSection-content-heading {
+    margin-top: 6%;
+  }
+  .careerSection-content-heading h2 {
+    font-size: 1.4rem;
+    /* margin-top: 4%; */
+  }
+
   .careerSection-content-heading {
     margin-bottom: 4% !important;
   }
-  .careerSection-content-heading h2 {
-    font-size: 1rem;
-  }
+
   .careerSection-content-heading h2::after {
     width: 60px;
     margin-top: 3%;
   }
-  .position-cards .position-cards-heading {
-    font-size: xx-small !important;
+  .position-cards h2 {
+    font-size: 1.3rem;
   }
   .opening-body p {
-    font-size: 1px;
+    font-size: 1rem;
     line-height: 150%;
   }
 }

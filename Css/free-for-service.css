@@ -13,7 +13,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   margin-bottom: 7%;
 }
 .innerLandingPage {
@@ -132,7 +131,6 @@
 }
 .innerRevenueSection .revenue-heading {
   margin-top: 4%;
-
   margin-bottom: 3%;
 }
 .innerRevenueSection .revenue-heading h1 {
@@ -261,7 +259,7 @@
   /* align-items: center; */
   /* flex-wrap: wrap; */
   background-color: #fff;
-  /* height: max-content; */
+  height: max-content;
 }
 .benefitCardsSection {
   width: 28%;
@@ -273,6 +271,7 @@
   /* align-items: center; */
   /* overflow: hidden; */
   position: relative;
+  /* background-color: tomato; */
 }
 .rightBorder {
   position: absolute;
@@ -289,6 +288,7 @@
   align-items: flex-start;
   /* width: 15%; */
   background-color: #fff;
+  /* background-color: tomato; */
 }
 .benefitCardsSection .card-img-bg div {
   width: 60px;
@@ -303,7 +303,7 @@
   font-family: "Poppins";
   margin-left: 5%;
   width: 85%;
-  height: max-content;
+  /* height: max-content; */
 }
 .benefitCardsSection .benefit-text h1 {
   font-style: normal;
@@ -398,105 +398,7 @@
   position: absolute;
   right: -1%;
 }
-/* on-boarding section */
-.on-boarding-section {
-  /* margin-top: 2%; */
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* background-color: hotpink; */
-  margin-bottom: 5%;
-  /* background-color: lightcoral; */
-}
-.inner-on-boarding-section {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  /* background-color: lightseagreen; */
-}
-.on-boarding-heading {
-  margin-top: 8%;
-  margin-bottom: 3%;
-}
-.on-boarding-heading h1 {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  text-align: center;
-  line-height: 130%;
-  color: #1b2050;
-}
-.on-boarding-step-div {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  /* align-items: center; */
-  flex-wrap: wrap;
-  /* background-color: lime; */
-  height: max-content;
-}
-.onBoardingCards {
-  width: 30%;
-  margin: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  /* background-color: magenta; */
-  height: max-content;
-}
-.onBoardingCards div:nth-child(1) {
-  width: 100%;
-  margin-bottom: 15%;
-  display: flex;
-  justify-content: center;
-  /* background-color: mediumblue; */
-}
-.onBoardingCards div:nth-child(1) img {
-  width: 70%;
-}
-.onBoardingCards div:nth-child(2) {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  font-family: "Poppins";
-  margin-top: 3%;
-}
-.onBoardingCards div:nth-child(2) h2::after {
-  content: "";
-  width: 50px;
-  height: 2px;
-  display: block;
-  background-color: #458dfc;
-  margin: auto;
-  margin-top: 10px;
-}
 
-.onBoardingCards h2 {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.1rem;
-  line-height: 30px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #4f5665;
-  margin-bottom: 5%;
-}
-.onBoardingCards p {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 300;
-  /* font-size: 20px; */
-  line-height: 30px;
-  text-align: center;
-  color: #4f5665;
-}
 /* device Feature  */
 .device-features {
   width: 100%;
@@ -575,6 +477,105 @@
   background-color: #97c3f9;
   margin: auto;
 }
+/* on-boarding section */
+.on-boarding-section {
+  /* margin-top: 2%; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: hotpink; */
+  margin-bottom: 5%;
+  /* background-color: lightcoral; */
+}
+.inner-on-boarding-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: lightseagreen; */
+}
+.on-boarding-heading {
+  margin-top: 8%;
+  margin-bottom: 3%;
+}
+.on-boarding-heading h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  line-height: 130%;
+  color: #1b2050;
+}
+.on-boarding-step-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  /* background-color: lime; */
+  height: max-content;
+}
+.onBoardingCards {
+  width: 30%;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* background-color: magenta; */
+  height: max-content;
+}
+.onBoardingCards div:nth-child(1) {
+  width: 100%;
+  margin-bottom: 15%;
+  display: flex;
+  justify-content: center;
+  /* background-color: mediumblue; */
+}
+.onBoardingCards div:nth-child(1) img {
+  width: 80%;
+}
+.onBoardingCards div:nth-child(2) {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins";
+  margin-top: 3%;
+}
+.onBoardingCards div:nth-child(2) h2::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  display: block;
+  background-color: #458dfc;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.onBoardingCards h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.1rem;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #4f5665;
+  margin-bottom: 5%;
+}
+.onBoardingCards p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  /* font-size: 20px; */
+  line-height: 30px;
+  text-align: center;
+  color: #4f5665;
+}
 
 /* graph-section */
 .impact-graph-section {
@@ -621,8 +622,321 @@
   width: 80%;
   display: flex;
   justify-content: center;
+  /* background-color: tomato; */
 }
 .impact-graph-image img {
   height: 40%;
   width: 40%;
+}
+
+/* Responsive tab view */
+@media (max-width: 768px) {
+  /* landing page css */
+  .innerLandingPage {
+    flex-direction: column-reverse;
+  }
+  .landingPageImage {
+    display: none;
+  }
+  .landingPageContent {
+    width: 100%;
+  }
+  .landingPageHeading h1 {
+    font-size: 1.8rem;
+  }
+  .landingPageHeading p {
+    font-size: 1.3rem;
+  }
+  .landingPageBtn button {
+    width: 30%;
+  }
+
+  /* revenue section css*/
+  .innerRevenueSection .revenue-heading h1 {
+    font-size: 1.8rem;
+  }
+  .innerRevenueSection .revenue-heading p {
+    font-size: 1.3rem;
+    padding: 0 10%;
+  }
+  .revenue-box {
+    width: 85%;
+  }
+  .revenue-box .revenue-box-inner h3 {
+    font-size: 1.5rem;
+  }
+  .revenue-box-inner .revenue-input input {
+    width: 35%;
+  }
+  .revenue-box-inner .revenue-input button {
+    width: 25%;
+  }
+
+  /* benefit section */
+  .benefit-heading-div h1 {
+    font-size: 1.8rem;
+  }
+  .inner-benefit-section {
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-items: center;
+  }
+  .benefitCardsSection {
+    width: 50%;
+    /* background-color: lawngreen; */
+    /* height: 5rem !important; */
+  }
+  .rightBorder {
+    display: none;
+  }
+  .benefitCardsSection .benefit-text {
+    height: fit-content !important;
+  }
+  .benefitCardsSection .benefit-text p {
+    font-size: 1.3rem;
+  }
+
+  /* device suit section */
+  .device-suit-heading {
+    width: 80%;
+  }
+  .device-suit-heading h1 {
+    font-size: 1.8rem;
+  }
+  .device-suit-heading p {
+    font-size: 1.3rem;
+  }
+  .device-suit-text {
+    display: none;
+  }
+  /* device Feature  */
+  .device-feature-heading h1 {
+    font-size: 1.8rem;
+  }
+  .device-features-grid-content {
+    margin: 2% 0;
+    width: 33%;
+  }
+  .device-features-grid-content h5 {
+    font-size: 1rem;
+  }
+  /* on-boarding section */
+  .on-boarding-heading h1 {
+    font-size: 1.8rem;
+  }
+  .onBoardingCards {
+    width: 35%;
+  }
+  .onBoardingCards div:nth-child(1) img {
+    width: 100%;
+  }
+  .onBoardingCards p {
+    font-size: 1.3rem;
+  }
+
+  /* graph-section */
+  .impact-graph-heading h1 {
+    font-size: 1.8rem;
+  }
+  .impact-graph-heading p {
+    font-size: 1.3rem;
+  }
+  .impact-graph-image img {
+    height: 65%;
+    width: 65%;
+  }
+}
+
+/* Responsive Mobile view */
+@media (max-width: 450px) {
+  /* landing page css */
+  .innerLandingPage {
+    flex-direction: column-reverse;
+    margin-top: 3%;
+  }
+  .landingPageImage {
+    display: none;
+  }
+  .landingPageContent {
+    width: 100%;
+    padding-right: 1.1%;
+    padding-left: 0;
+  }
+  .landingPageHeading h1 {
+    font-size: 1.5rem;
+  }
+  .landingPageHeading p {
+    font-size: 1rem;
+  }
+  .landingPageBtn {
+    display: flex;
+    justify-content: center;
+  }
+  .landingPageBtn button {
+    width: 58%;
+  }
+
+  /* revenue section css*/
+  .innerRevenueSection .revenue-heading {
+    margin-top: 7%;
+  }
+  .innerRevenueSection .revenue-heading h1 {
+    font-size: 1.5rem;
+    padding: 0 2%;
+  }
+  .innerRevenueSection .revenue-heading p {
+    font-size: 1rem;
+    padding: 0 5%;
+    margin-top: 4%;
+  }
+  .revenue-box {
+    width: 90%;
+  }
+  .revenue-box .revenue-box-inner h3 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .revenue-box-inner .revenue-input {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .revenue-box-inner .revenue-input input {
+    width: 100%;
+  }
+  .revenue-box-inner .revenue-input button {
+    width: 58%;
+    margin-top: 4%;
+  }
+  .total-revenue h4,
+  .total-revenue p {
+    font-size: 1rem;
+  }
+  .revenue-points .revenue-points-div {
+    flex-direction: column;
+    margin: 2% 0;
+    align-items: center;
+    /* justify-content: center; */
+    /* background-color: tomato; */
+    text-align: center;
+  }
+  .revenue-points .revenue-points-div h6,
+  .revenue-points .revenue-points-div p {
+    font-size: 0.8rem;
+  }
+
+  /* benefit section */
+  .benefit-heading-div {
+    margin-top: 8%;
+  }
+  .benefit-heading-div h1 {
+    font-size: 1.5rem;
+  }
+  .inner-benefit-section {
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-items: center;
+  }
+  .inner-benefit-section .benefitCardsSection:nth-child(2) {
+    /* margin-top: -15%; */
+  }
+  .benefitCardsSection {
+    width: 95%;
+    /* background-color: lawngreen; */
+    height: auto;
+  }
+  .rightBorder {
+    display: none;
+  }
+
+  .benefitCardsSection .benefit-text h1 {
+    font-size: 1.3rem;
+  }
+  .benefitCardsSection .benefit-text p {
+    font-size: 1rem;
+  }
+
+  /* device suit section */
+  .device-suit-heading {
+    width: 90%;
+    margin-top: 10%;
+  }
+  .device-suit-heading h1 {
+    font-size: 1.5rem;
+  }
+  .device-suit-heading p {
+    font-size: 1rem;
+  }
+  .device-suit-text {
+    display: none;
+  }
+  .device-suit-photo {
+    width: 100%;
+  }
+  /* device Feature  */
+  .device-feature-heading {
+    margin-top: 10%;
+  }
+  .device-feature-heading h1 {
+    font-size: 1.5rem;
+  }
+
+  .device-features-grid-top,
+  .device-features-grid-middle,
+  .device-features-grid-bottom {
+    flex-direction: column;
+  }
+  .device-features-grid-content {
+    margin: 2% 0;
+    width: 100%;
+    /* background-color: tomato; */
+    text-align: center;
+  }
+  .device-features-grid-middle::before,
+  .device-features-grid-middle::after {
+    display: none;
+  }
+  .device-features-grid-top div:nth-child(2),
+  .device-features-grid-middle div:nth-child(2),
+  .device-features-grid-bottom div:nth-child(2) {
+    display: none;
+  }
+  .device-features-grid-content h5 {
+    font-size: 1rem;
+    font-weight: 450;
+  }
+  /* on-boarding section */
+  .on-boarding-heading {
+    margin-top: 10%;
+  }
+  .on-boarding-heading h1 {
+    font-size: 1.5rem;
+  }
+  .onBoardingCards {
+    width: 90%;
+  }
+  .onBoardingCards div:nth-child(1) img {
+    width: 90%;
+  }
+  .onBoardingCards p,
+  .onBoardingCards h2 {
+    font-size: 1rem;
+  }
+
+  /* graph-section */
+  .impact-graph-heading {
+    margin-top: 10%;
+  }
+  .impact-graph-heading h1 {
+    font-size: 1.5rem;
+  }
+  .impact-graph-heading p {
+    font-size: 1rem;
+  }
+  .impact-graph-image img {
+    height: 100%;
+    width: 100%;
+  }
 }

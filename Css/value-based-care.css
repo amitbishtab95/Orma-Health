@@ -121,6 +121,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  /* background-color: blueviolet; */
 }
 .ourPartner-icon-cards div:nth-child(1) {
   width: 100px;
@@ -155,10 +156,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  /* background-color: hotpink !important; */
 }
 .infoGraph-heading {
   margin-top: 5%;
   margin-bottom: 3%;
+  /* background-color: indianred; */
 }
 .infoGraph-heading h1 {
   font-family: "Poppins";
@@ -172,6 +175,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background-color: lawngreen; */
 }
 .infoGraph-content img {
   height: 80rem !important;
@@ -239,7 +243,6 @@
   text-transform: capitalize;
 }
 .partnerHeading h1 {
-  /* font-size: 2rem; */
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -297,4 +300,218 @@
   font-weight: 300;
   line-height: 167.5%;
   color: #484848;
+}
+
+/* Responsive Tab View */
+@media (max-width: 768px) {
+  /*value Landing page */
+  .innerValueLandingPage {
+    flex-direction: column;
+    padding-right: 0;
+  }
+  .valueLandingPage-content {
+    padding-left: 0;
+    margin-top: 3%;
+    width: 100%;
+    padding: 5%;
+  }
+  .valueLandingPage-heading h1 {
+    font-size: 1.8rem;
+  }
+  .valueLandingPage-heading p {
+    font-size: 1.3rem;
+  }
+  .valueLandingPageBtn .btn-1,
+  .valueLandingPageBtn .btn-2 {
+    width: 30%;
+  }
+  .valueLandingPageImage {
+    display: flex;
+    justify-content: center;
+  }
+  .valueLandingPageImage img {
+    height: 45vh;
+  }
+
+  /* our partner css */
+  .ourPartner-heading h1 {
+    font-size: 1.8rem;
+  }
+  .ourPartner-icon {
+    justify-content: space-evenly;
+    padding: 0;
+  }
+  .ourPartner-icon-cards {
+    width: 40%;
+    margin-bottom: 3%;
+  }
+  .ourPartner-icon-cards h6 {
+    font-size: 0.9rem;
+  }
+
+  /* info graphi section */
+  .infoGraph-heading h1 {
+    font-size: 1.8rem;
+  }
+  .infoGraph-content img {
+    height: 60rem !important;
+  }
+
+  /* Why Partner with us  */
+  .partnerHeading {
+    margin-bottom: 2%;
+  }
+  .partnerHeading h1 {
+    font-size: 1.8rem;
+  }
+  .mainPartnersCards .partnerCard:nth-child(1) {
+    flex-direction: column-reverse;
+    align-items: unset;
+    /* background-color: tomato; */
+  }
+  .mainPartnersCards .partnerCard:nth-child(2) {
+    flex-direction: column;
+    align-items: unset;
+    /* background-color: fuchsia; */
+  }
+  .mainPartnersCards .partnerCard:nth-child(3) {
+    flex-direction: column-reverse;
+    align-items: unset;
+    /* background-color: gray; */
+  }
+  .partnerText,
+  .partnerImage {
+    width: 100%;
+    padding: 1.5rem;
+  }
+  .partnerImage {
+    padding: 0.5rem;
+  }
+  .partnerImage img {
+    width: 80%;
+  }
+  .partnerText p {
+    width: 100%;
+    font-size: 1.3rem;
+  }
+}
+
+/* Responsive Mobile View */
+@media (max-width: 450px) {
+  /*value Landing page */
+  .innerValueLandingPage {
+    flex-direction: column;
+    padding-right: 0;
+  }
+  .valueLandingPage-content {
+    padding-left: 0;
+    margin-top: 3%;
+    width: 100%;
+    padding: 5%;
+  }
+  .valueLandingPage-heading h1 {
+    font-size: 1.5rem;
+  }
+  .valueLandingPage-heading p {
+    font-size: 1rem;
+  }
+  .valueLandingPageBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .valueLandingPageBtn .btn-1 {
+    margin: 0;
+    margin-bottom: 3%;
+  }
+  .valueLandingPageBtn .btn-1,
+  .valueLandingPageBtn .btn-2 {
+    width: 58%;
+  }
+  .valueLandingPageImage {
+    display: flex;
+    justify-content: center;
+  }
+  .valueLandingPageImage img {
+    height: 40vh;
+  }
+
+  /* our partner css */
+  .ourPartner-heading h1 {
+    font-size: 1.5rem;
+  }
+  .ourPartner-icon {
+    flex-direction: column;
+  }
+  .ourPartner-icon-cards {
+    width: 100%;
+    margin-bottom: 3%;
+    /* background-color: greenyellow; */
+  }
+  .ourPartner-icon-cards h6 {
+    font-size: 0.5rem;
+    text-align: center;
+  }
+
+  /* info graphi section */
+  .infoGraph-heading {
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+  }
+  .infoGraph-heading h1 {
+    font-size: 1.5rem;
+  }
+  .infoGraph-content {
+    width: 95%;
+  }
+  .infoGraph-content img {
+    height: 40rem !important;
+    width: 100%;
+  }
+
+  /* Why Partner with us  */
+  .partnerHeading {
+    margin-bottom: 2%;
+  }
+  .partnerHeading h1 {
+    font-size: 1.5rem;
+  }
+  .mainPartnersCards .partnerCard:nth-child(1) {
+    flex-direction: column-reverse;
+    align-items: unset;
+    /* background-color: tomato; */
+  }
+  .mainPartnersCards .partnerCard:nth-child(2) {
+    flex-direction: column;
+    align-items: unset;
+    /* background-color: fuchsia; */
+  }
+  .mainPartnersCards .partnerCard:nth-child(3) {
+    flex-direction: column-reverse;
+    align-items: unset;
+    /* background-color: gray; */
+  }
+  .partnerText,
+  .partnerImage {
+    width: 100%;
+    padding: 1.5rem;
+  }
+  .partnerImage {
+    padding: 0.5rem;
+  }
+  .partnerImage img {
+    width: 85%;
+  }
+  .partnerText p {
+    font-size: 1rem;
+  }
+  .partnerText h4 {
+    font-size: 1.3rem;
+  }
+  .mainPartnerWithUs {
+    margin-bottom: 2%;
+  }
 }
