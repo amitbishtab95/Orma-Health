@@ -6,259 +6,269 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orma Health</title>
-    <link rel="stylesheet" href="./Css/Navbar.css">
-    <link rel="stylesheet" href="./Css/HomePage.css">
+
+    <link rel="stylesheet" href="./Css/Nav.css">
+
+
+
+    <!-- <link rel="stylesheet" href="./Css/Navbar.css"> -->
     <link rel="stylesheet" href="./Css/affiliate.css">
     <link rel="stylesheet" href="./Css/free-for-service.css">
-
+    <link rel="stylesheet" href="./Css/HomePage.css">
     <link rel="stylesheet" href="./Css/owl.carousel.min.css">
     <link rel="stylesheet" href="./Css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+
+
+
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <link rel=" stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
     </script>
+
+    <!-- Popperjs -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
         integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
     </script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 
+    <!-- <script src="./Js/jquery.min.js"></script> -->
+
+
+    <!-- Bootstrap min.js -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
         integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous">
     </script>
 </head>
 
 <body>
-
-    <section class="mainHeader">
-        <div class="innerMainHeader">
-            <header class="main-header">
-                <div class="logo">
-                    <a href="./index.htm">
-                        <img src="./Images/LogoImage.png" alt="">
-                    </a>
-                </div>
-
-                <input type="checkbox" class="menu-btn" id="menu-btn">
-                <label for="menu-btn" class="menu-icon">
-                    <span class="menu-icon__line"></span>
-                </label>
-
-                <ul class="nav-links">
-                    <li class="nav-link"><a href="./index.htm" class="open">Home</a></li>
-                    <!-- <li class="nav-link"><a href="./free-for-services.html">Services</a></li> -->
-                    <div class="dropdown nav-link">
-                        <a href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                            Services
+    <div class="body-outer-div">
+        <!-- <section class="mainHeader">
+            <div class="innerMainHeader">
+                <header class="main-header">
+                    <div class="logo">
+                        <a href="./index.htm">
+                            <img src="./Images/LogoImage.png" alt="">
                         </a>
-
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a href="./free-for-services.html">Fee-For-Service</a></li>
-                            <li><a href="./value-based-care.html">Value-Based-Care</a></li>
-                        </ul>
                     </div>
-                    <li class="nav-link"><a
-                            href="http://ec2-13-232-191-88.ap-south-1.compute.amazonaws.com/Orma/blog/wordpress/">Resources</a>
-                    </li>
-                    <li class="nav-link"><a href="./about.html">About</a></li>
-                    <li class="nav-link"><a href="./affiliate.html">Affiliate</a></li>
-                    <li class="nav-link"><a href="./careers.html">Careers</a></li>
 
-                    <li class="nav-link"><a href="./Faq.htm">FAQs</a></li>
-                </ul>
-            </header>
+                    <input type="checkbox" class="menu-btn" id="menu-btn">
+                    <label for="menu-btn" class="menu-icon">
+                        <span class="menu-icon__line"></span>
+                    </label>
+
+                    <ul class="nav-links">
+                        <li class="nav-link"><a href="./index.htm" class="open">Home</a></li>
+                        <div class="dropdown nav-link">
+                            <a href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Services
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a href="./free-for-services.html">Fee-For-Service</a></li>
+                                <li><a href="./value-based-care.html">Value-Based-Care</a></li>
+                            </ul>
+                        </div>
+                        
+                        <li class="nav-link"><a
+                                href="http://ec2-13-232-191-88.ap-south-1.compute.amazonaws.com/Orma/blog/wordpress/">Resources</a>
+                        </li>
+                        <li class="nav-link"><a href="./about.html">About</a></li>
+                        <li class="nav-link"><a href="./affiliate.html">Affiliate</a></li>
+                        <li class="nav-link"><a href="./careers.html">Careers</a></li>
+
+                        <li class="nav-link"><a href="./Faq.htm">FAQs</a></li>
+                    </ul>
+                </header>
+            </div>
+        </section> -->
+
+        <div class="page-wrapper">
+            <div class="nav-wrapper">
+                <!-- <div class="grad-bar"></div> -->
+                <nav class="navbar">
+                    <div class="logo">
+                        <a href="./index.htm">
+                            <img src="./Images/LogoImage.png" alt="">
+                        </a>
+                    </div>
+                    <div class="menu-toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <ul class="nav no-search">
+                        <li class="nav-item"><a href="./index.htm" class="open">Home</a></li>
+                        <!-- <li class="nav-item"><a href="#">Services</a></li> -->
+                        <div class="dropdown nav-item ">
+                            <a href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Services
+                            </a>
+                            <!-- <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div> -->
+                            <!-- <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li class="nav-item"><a href="./free-for-services.html">Fee-For-Service</a></li>
+                                <li class="nav-item"><a href="./value-based-care.html">Value-Based-Care</a></li>
+                            </ul> -->
+                        </div>
+                        <li class="nav-item"><a
+                                href="http://ec2-13-232-191-88.ap-south-1.compute.amazonaws.com/Orma/blog/wordpress/">Resources</a>
+                        </li>
+                        <li class="nav-item"><a href="./about.html">About</a></li>
+                        <li class="nav-item"><a href="./affiliate.html">Affiliate</a></li>
+                        <li class="nav-item"><a href="./careers.html">Careers</a></li>
+                        <li class="nav-item"><a href="./Faq.htm">FAQs</a></li>
+                        <!-- <i class="fas fa-search" id="search-icon"></i> -->
+                        <!-- <input class="search-input" type="text" placeholder="Search.."> -->
+                    </ul>
+                </nav>
+            </div>
         </div>
-    </section>
 
+        <section class="mainLanding">
+            <img class="landingDotsImage" src="./Images/dots.png" alt="">
+            <div class="innerLanding">
+                <div class="contentArea">
+                    <div>
+                        <h1>
+                            The Missing Piece for <span id="changeText"></span>
+                        </h1>
+                        <p>With its network of connected devices and proprietary analytics, Orma Health is
+                            revolutionizing
+                            the remote care paradigm
+                            for Providers, Payers and Patients.</p>
+                    </div>
+                    <div>
+                        <button class="btn-1">Learn More</button>
+                        <button class="btn-2" data-toggle="modal" data-target="#mymodal">Request a Demo</button>
 
-    <section class="mainLanding">
-        <img class="landingDotsImage" src="./Images/dots.png" alt="">
-        <div class="innerLanding">
-            <div class="contentArea">
-                <div>
-                    <h1>
-                        The Missing Piece for <span id="changeText"></span>
-                    </h1>
-                    <p>With its network of connected devices and proprietary analytics, Orma Health is revolutionizing
-                        the remote care paradigm
-                        for Providers, Payers and Patients.</p>
+                    </div>
                 </div>
-                <div>
-                    <button class="btn-1">Learn More</button>
-                    <button class="btn-2" data-toggle="modal" data-target="#mymodal">Request a Demo</button>
-                    <div class="modal" id="mymodal">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <div class="earningForm-part insideModal">
-                                        <div class="form-box">
-                                            <div class="form-box-inner">
-                                                <h2>Connect with Orma</h2>
-                                                <div class="form-start">
-                                                    <form>
-                                                        <div class="form-row">
-                                                            <div class="form-group ">
-                                                                <label for="firstName">First Name</label>
-                                                                <input type="text" class="form-control" id="firstName"
-                                                                    placeholder="First Name">
-                                                            </div>
-                                                            <div class="form-group">
-                                                                <label for="lastName">Last Name</label>
-                                                                <input type="text" class="form-control" id="lastName"
-                                                                    placeholder="Last Name">
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group">
-                                                            <label for="exampleInputEmail1">Email address</label>
-                                                            <input type="email" class="form-control"
-                                                                id="exampleInputEmail1" aria-describedby="emailHelp"
-                                                                placeholder="Enter email">
-                                                        </div>
-                                                        <div class="form-group">
-                                                            <label for="phone">Contact no.</label>
-                                                            <input type="tel" class="form-control" id="phone"
-                                                                placeholder="xxxxxxxxxx">
-                                                        </div>
-                                                        <div class="form-group">
-                                                            <label for="jobTitle">Contact no.</label>
-                                                            <input type="text" class="form-control" id="jobTitle"
-                                                                placeholder="Doctor">
-                                                        </div>
-                                                        <div class="form-group">
-                                                            <label for="practiceName">Practice Name</label>
-                                                            <input type="text" class="form-control" id="practiceName"
-                                                                placeholder="Practice Name">
-                                                        </div>
-                                                        <div class="form-group">
-                                                            <label for="inputCity">City</label>
-                                                            <input type="text" class="form-control" id="inputCity">
-                                                        </div>
-                                                        <button type="submit"
-                                                            class="btn btn-primary btn-block btn-lg">Submit</button>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                <div class="imageArea">
+                    <img src="./Images1/image 25.png" alt="landingImage">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="mainCompanies">
+            <img class="Vector101" src="./Images1/Vector101.png">
+            <div class="innerCompanies">
+                <div class="CompanyHeading">
+                    <h1>Our Impact</h1>
+                </div>
+                <div class="companyCards">
+                    <div class="company_image ">
+                        <div class="card-images-bg">
+                            <div>
+                                <img src="./Images1/1stV.png" alt="" srcset="">
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="imageArea">
-                <img src="./Images1/image 25.png" alt="landingImage">
-            </div>
-        </div>
-    </section>
-
-
-    <section class="mainCompanies">
-        <img class="Vector101" src="./Images1/Vector101.png">
-        <div class="innerCompanies">
-            <div class="CompanyHeading">
-                <h1>Our Impact</h1>
-            </div>
-            <div class="companyCards">
-                <div class="company_image ">
-                    <div class="card-images-bg">
-                        <div>
-                            <img src="./Images1/1stV.png" alt="" srcset="">
+                        <div class="imapct-text">
+                            <h1 class="imapct-text-one">6+</h1>
+                            <p>Device types integrated</p>
                         </div>
                     </div>
-                    <div class="imapct-text">
-                        <h1 class="imapct-text-one">6+</h1>
-                        <p>Device types integrated</p>
-                    </div>
-                </div>
-                <div class="company_image ">
-                    <div class="card-images-bg">
-                        <div>
-                            <img src="./Images1/2ndV.png" alt="" srcset="">
+                    <div class="company_image ">
+                        <div class="card-images-bg">
+                            <div>
+                                <img src="./Images1/2ndV.png" alt="" srcset="">
+                            </div>
+                        </div>
+                        <div class="imapct-text">
+                            <h1 class="imapct-text-two">7+</h1>
+                            <p>addressable chronic conditions</p>
                         </div>
                     </div>
-                    <div class="imapct-text">
-                        <h1 class="imapct-text-two">7+</h1>
-                        <p>addressable chronic conditions</p>
-                    </div>
-                </div>
-                <div class="company_image ">
-                    <div class="card-images-bg">
-                        <div>
-                            <img src="./Images1/3rdV.png" alt="" srcset="">
+                    <div class="company_image ">
+                        <div class="card-images-bg">
+                            <div>
+                                <img src="./Images1/3rdV.png" alt="" srcset="">
+                            </div>
+                        </div>
+                        <div class="imapct-text">
+                            <h1 class="imapct-text-three"> &#x3c;5min</h1>
+                            <p>average onboarding;<br>sign-up and start the program right away</p>
                         </div>
                     </div>
-                    <div class="imapct-text">
-                        <h1 class="imapct-text-three"> &#x3c;5min</h1>
-                        <p>average onboarding;<br>sign-up and start the program right away</p>
-                    </div>
-                </div>
-                <div class="company_image">
-                    <div class="card-images-bg">
-                        <div>
-                            <img src="./Images1/4thV.png" alt="" srcset="">
+                    <div class="company_image">
+                        <div class="card-images-bg">
+                            <div>
+                                <img src="./Images1/4thV.png" alt="" srcset="">
+                            </div>
+                        </div>
+                        <div class="imapct-text">
+                            <h1 class="imapct-text-four">98%</h1>
+                            <p>Patient engagement rate</p>
                         </div>
                     </div>
-                    <div class="imapct-text">
-                        <h1 class="imapct-text-four">98%</h1>
-                        <p>Patient engagement rate</p>
-                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="mainThirdSection">
-        <div class="innerThirdSection">
-            <div class="innerThirdSection-text">
-                <h1>THE ORMA HEALTH PLATFORM</h1>
-                <p>An ecosystem of devices and cloud-based products and services, powering innovative use cases in
-                    Remote Patient Care</p>
+        <section class="mainThirdSection">
+            <div class="innerThirdSection">
+                <div class="innerThirdSection-text">
+                    <h1>THE ORMA HEALTH PLATFORM</h1>
+                    <p>An ecosystem of devices and cloud-based products and services, powering innovative use cases in
+                        Remote Patient Care</p>
+                </div>
+                <div class="innerThirdSection-img">
+                    <img src="./Images1/Group.png">
+                </div>
             </div>
-            <div class="innerThirdSection-img">
-                <img src="./Images1/Group.png">
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="mainFourSection">
-        <div class="innerFourSection">
-            <div class="innerFourSection-left">
-                <img src="./Images1/image10.png">
+        <section class="mainFourSection">
+            <div class="innerFourSection">
+                <div class="innerFourSection-left">
+                    <img src="./Images1/image10.png">
+                </div>
+                <div class="innerFourSection-right">
+                    <h1>Fee For Service</h1>
+                    <p> Leverage the Orma Health Platform to grow practice revenue with reimbursements from Centre for
+                        Medicare
+                        and Medicaid<br><br>
+                        <p>Schedule a demo with us today and we'd be happy to guide you through the process</p>
+                    </p><br>
+                    <button>Request a Demo</button>
+                </div>
             </div>
-            <div class="innerFourSection-right">
-                <h1>Fee For Service</h1>
-                <p> Leverage the Orma Health Platform to grow practice revenue with reimbursements from Centre for
-                    Medicare
-                    and Medicaid<br><br>
-                    <p>Schedule a demo with us today and we'd be happy to guide you through the process</p>
-                </p><br>
-                <button>Request a Demo</button>
+        </section>
+
+        <section class="mainFiveSection">
+            <div class="innerFiveSection">
+                <div class="innerFiveSection-left">
+                    <h1>Value-Based Care</h1>
+                    <p>We support Risk-Bearing Entities to transition to a value-based healthcare model, uniquely
+                        delivered
+                        through data-driven remote monitoring solutions
+                    </p><br>
+                    <button>Learn More</button>
+                </div>
+                <div class="innerFiveSection-right">
+                    <img src="./Images1/7111.png">
+                </div>
             </div>
-        </div>
-    </section>
-    <section class="mainFiveSection">
-        <div class="innerFiveSection">
-            <div class="innerFiveSection-left">
-                <h1>Value-Based Care</h1>
-                <p>We support Risk-Bearing Entities to transition to a value-based healthcare model, uniquely delivered
-                    through data-driven remote monitoring solutions
-                </p><br>
-                <button>Learn More</button>
-            </div>
-            <div class="innerFiveSection-right">
-                <img src="./Images1/7111.png">
-            </div>
-        </div>
-    </section>
+        </section>
 
 
 
-    <!-- <section class="mainTestimonial">
+        <!-- <section class="mainTestimonial">
         <div class="innerTestimonial">
             <img class="rightDots" src="./Images/dots.png" alt="">
             <div class="testimonialHeading">
@@ -322,37 +332,37 @@
         </div>
     </section> -->
 
-    <section class="graph-carousel">
+        <section class="graph-carousel">
 
-        <div class="inner-impact-graph-section">
-            <div class="impact-graph-heading">
-                <h1>The Orma Impact</h1>
-                <p>p-value&#x3c;2e-16</p>
+            <div class="inner-impact-graph-section">
+                <div class="impact-graph-heading">
+                    <h1>The Orma Impact</h1>
+                    <p>p-value&#x3c;2e-16</p>
+                </div>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="impact-graph-img">
+                            <img src="./Images1/graph.png">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="impact-graph-img">
+                            <img src="./Images1/graph.png">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="impact-graph-img">
+                            <img src="./Images1/graph.png">
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <div class="impact-graph-image">
-                        <img src="./Images1/graph.png">
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="impact-graph-image">
-                        <img src="./Images1/graph.png">
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="impact-graph-image">
-                        <img src="./Images1/graph.png">
-                    </div>
-                </div>
-            </div>
+        </section>
 
-        </div>
-    </section>
-
-    <section class="mainFooter">
-        <img class="footerDots" src="./Images/dots.png" alt="">
-        <!-- <section class="getEstimate">
+        <section class="mainFooter">
+            <img class="footerDots" src="./Images/dots.png" alt="">
+            <!-- <section class="getEstimate">
             <div class="innerGetEstimate">
                 <div class="edtimateDiv">
                     <div class="estimateText">
@@ -366,48 +376,110 @@
                 </div>
             </div>
         </section> -->
-        <footer class="innerFooter">
-            <div class="footerContent">
-                <div class="footerHeading">
-                    <div class="footerLogo">
-                        <h6>O</h6>
+            <footer class="innerFooter">
+                <div class="footerContent">
+                    <div class="footerHeading">
+                        <div class="footerLogo">
+                            <h6>O</h6>
+                        </div>
+                        <h2>Orma Health</h2>
                     </div>
-                    <h2>Orma Health</h2>
+                    <div class="footerInfo">
+                        <p>1117 S. California Ave
+                            Palo Alto, CA 94304
+                        </p>
+                    </div>
+                    <div class="copyrights">
+                        <p>©Orma Health Inc 2020. All rights reserved</p>
+                    </div>
                 </div>
-                <div class="footerInfo">
-                    <p>1117 S. California Ave
-                        Palo Alto, CA 94304
-                    </p>
+                <div class="footerMaps">
+                    <div class="footerCompany">
+                        <h2>Company</h2>
+                        <ul>
+                            <li><a href="./index.htm" style="text-decoration: none; color: white;">Home</a></li>
+                            <li><a href="http://ec2-13-232-191-88.ap-south-1.compute.amazonaws.com/Orma/blog/wordpress/"
+                                    style="text-decoration: none; color: white;">Resources</a></li>
+                            <li><a href="./about.html" style="text-decoration: none; color: white;">About</a></li>
+
+                            <li><a href="./affiliate.html" style="text-decoration: none; color: white;">Affiliate</a>
+                            </li>
+                            <li><a href="./careers.html" style="text-decoration: none; color: white;">Careers</a></li>
+                            <li><a href="./Faq.htm" style="text-decoration: none; color: white;">FAQs</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="footerMapImage">
+                        <img src="./Images/map.png" alt="">
+                    </div>
                 </div>
-                <div class="copyrights">
-                    <p>©Orma Health Inc 2020. All rights reserved</p>
+            </footer>
+        </section>
+
+        <div class="outer-modal">
+            <div class="modal" id="mymodal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div class="earningForm-part insideModal">
+                                <div class="form-box">
+                                    <div class="form-box-inner">
+                                        <h2>Connect with Orma</h2>
+                                        <div class="form-start">
+                                            <form>
+                                                <div class="form-row">
+                                                    <div class="form-group ">
+                                                        <label for="firstName">First Name</label>
+                                                        <input type="text" class="form-control" id="firstName"
+                                                            placeholder="First Name">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="lastName">Last Name</label>
+                                                        <input type="text" class="form-control" id="lastName"
+                                                            placeholder="Last Name">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="exampleInputEmail1">Email
+                                                        address</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                                        aria-describedby="emailHelp" placeholder="Enter email">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="phone">Contact no.</label>
+                                                    <input type="tel" class="form-control" id="phone"
+                                                        placeholder="xxxxxxxxxx">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="jobTitle">Contact no.</label>
+                                                    <input type="text" class="form-control" id="jobTitle"
+                                                        placeholder="Doctor">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="practiceName">Practice Name</label>
+                                                    <input type="text" class="form-control" id="practiceName"
+                                                        placeholder="Practice Name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="inputCity">City</label>
+                                                    <input type="text" class="form-control" id="inputCity">
+                                                </div>
+                                                <button type="submit"
+                                                    class="btn btn-primary btn-block btn-lg">Submit</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="footerMaps">
-                <div class="footerCompany">
-                    <h2>Company</h2>
-                    <ul>
-                        <li><a href="./index.htm" style="text-decoration: none; color: white;">Home</a></li>
-                        <li><a href="http://ec2-13-232-191-88.ap-south-1.compute.amazonaws.com/Orma/blog/wordpress/"
-                                style="text-decoration: none; color: white;">Resources</a></li>
-                        <li><a href="./about.html" style="text-decoration: none; color: white;">About</a></li>
+        </div>
+    </div>
 
-                        <li><a href="./affiliate.html" style="text-decoration: none; color: white;">Affiliate</a></li>
-                        <li><a href="./careers.html" style="text-decoration: none; color: white;">Careers</a></li>
-                        <li><a href="./Faq.htm" style="text-decoration: none; color: white;">FAQs</a></li>
-
-                    </ul>
-                </div>
-                <div class="footerMapImage">
-                    <img src="./Images/map.png" alt="">
-                </div>
-            </div>
-        </footer>
-    </section>
-
-    <!-- <script src="./Js/jquery.min.js"></script> -->
     <script src="./Js/owl.carousel.min.js"></script>
-
+    <script src="./Css/Nav.js"></script>
     <script>
         $('.owl-carousel').owlCarousel({
             loop: false,
@@ -451,3 +523,6 @@
 </body>
 
 </html>
+
+
+<!--  -->

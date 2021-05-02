@@ -745,6 +745,65 @@
     height: 65%;
     width: 65%;
   }
+  /* Footer */
+  .footerDots {
+    display: none;
+  }
+  .innerFooter {
+    flex-direction: column-reverse;
+    padding-top: 2rem;
+    align-items: center;
+  }
+  .footerContent {
+    width: 80%;
+  }
+  .footerHeading {
+    justify-content: center;
+    margin-top: 2%;
+  }
+  .footerHeading h2 {
+    font-size: 1.8rem;
+  }
+  .footerInfo,
+  .copyrights {
+    text-align: center;
+  }
+  .footerInfo p,
+  .copyrights p {
+    font-size: 1.3rem;
+  }
+  .footerMaps {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footerCompany {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footerCompany h2 {
+    font-size: 1.8rem;
+    /* text-align: center; */
+  }
+  .footerCompany ul {
+    margin-top: 0;
+    display: flex;
+    padding-left: 0;
+  }
+  .footerCompany ul li {
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .footerMapImage {
+    margin-left: 0;
+  }
 }
 
 /* Responsive Mobile view */
@@ -937,6 +996,68 @@
   }
   .impact-graph-image img {
     height: 100%;
+    width: 100%;
+  }
+  /* Footer */
+  /* .innerFooter {
+    flex-direction: column-reverse;
+    padding-top: 2rem;
+    align-items: center;
+  } */
+  /* .footerContent {
+    width: 80%;
+  } */
+  .footerHeading {
+    /* justify-content: center; */
+    margin-top: 4%;
+  }
+  .footerHeading h2 {
+    font-size: 1.5rem;
+  }
+  /* .footerInfo,
+  .copyrights {
+    text-align: center;
+  } */
+  .footerInfo p,
+  .copyrights p {
+    font-size: 1rem;
+  }
+  /* .footerMaps {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  } */
+  .footerCompany {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    display: none;
+  }
+  /* .footerCompany h2 {
+    font-size: 1.8rem;
+  } */
+  /* .footerCompany ul {
+    margin-top: 0;
+    display: flex;
+    padding-left: 0;
+  } */
+  /* .footerCompany ul li {
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  } */
+  .footerMapImage {
+    /* margin-left: 0; */
+    display: flex;
+    justify-content: center;
+  }
+  .footerMapImage img {
     width: 100%;
   }
 }
