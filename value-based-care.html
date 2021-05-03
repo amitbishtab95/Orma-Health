@@ -39,7 +39,7 @@
                         <img src="./Images/LogoImage.png" alt="">
                     </a>
                 </div>
-                <div class="menu-toggle" id="mobile-menu">
+                <div onclick="toggling()" class="menu-toggle" id="mobile-menu">
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
@@ -111,7 +111,7 @@
                 </div>
                 <div class="ourPartner-icon-cards">
                     <div>
-                        <img src="./Images1/partner1.png">
+                        <img src="./Images1/partner2.png">
                     </div>
                     <h6>Direct Contracting Entities</h6>
                 </div>
@@ -245,19 +245,19 @@
         </footer>
     </section>
 
+
+    <script>
+        var mybtn = document.getElementById("mobile-menu").classList;
+
+        function toggling() {
+            alert("amit")
+            document.getElementsByClassName("nav").classList.toggle("mobile-nav")
+        }
+    </script>
+
     <script src="../Js/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/8824f22092.js" crossorigin="anonymous"></script>
     <script src="./Css/Nav.js"></script>
-
-    <script>
-        $('.menu-toggle').click(function () {
-            alert("zaid");
-            $(".nav").toggleClass("mobile-nav");
-            $(".page-wrapper").toggleClass("stick");
-            // $(".logo").toggleClass("logoMargin");
-            $(this).toggleClass("is-active");
-        });
-    </script>
 
 </body>
 
