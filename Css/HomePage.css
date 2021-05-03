@@ -637,8 +637,6 @@
     font-size: 1.5rem;
   }
   .modal {
-    padding-right: 0 !important;
-    z-index: 100000000000000 !important;
     /* width: 59% !important; */
     /* width: 100% !important; */
     /* margin: auto; */
@@ -647,7 +645,7 @@
   }
   .modal-dialog {
     max-width: 33rem !important;
-    overflow: scroll !important;
+    /* overflow: scroll !important; */
   }
   .insideModal .form-box {
     width: 100%;
