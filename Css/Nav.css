@@ -10,7 +10,7 @@
   position: sticky;
   top: 0;
   background-color: #fff;
-  z-index: 999;
+  /* z-index: 999; */
 }
 /* .logo.logoMargin {
   margin-left: 3%;
