@@ -113,7 +113,7 @@
 }
 .modal {
   padding-right: 0 !important;
-  z-index: 100000000000000 !important;
+  /* z-index: 100000000000000 !important; */
 }
 .modal-dialog {
   max-width: 45rem !important;
@@ -856,7 +856,7 @@
   }
   .modal {
     padding-right: 0 !important;
-    z-index: 100000000000000 !important;
+    /* z-index: 100000000000000 !important; */
     /* width: 59% !important; */
     margin: auto;
     /* background-color: tomato; */

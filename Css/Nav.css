@@ -10,7 +10,7 @@
   position: sticky;
   top: 0;
   background-color: #fff;
-  /* z-index: 999; */
+  z-index: 999;
 }
 /* .logo.logoMargin {
   margin-left: 3%;
@@ -230,7 +230,7 @@
 
 /* Mobile Devices - Phones/Tablets */
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .features {
     flex-direction: column;
     padding: 50px;
@@ -270,7 +270,7 @@
   .bar {
     display: block;
     cursor: pointer;
-    z-index: 999;
+    z-index: 999999 !important;
   }
   .mobile-nav {
     transform: translate(0%) !important;
