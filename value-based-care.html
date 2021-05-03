@@ -44,7 +44,7 @@
                     <span class="bar"></span>
                     <span class="bar"></span>
                 </div>
-                <ul class="nav no-search">
+                <ul id="navNav" class="nav no-search">
                     <li class="nav-item"><a href="./index.htm">Home</a></li>
                     <div class="dropdown show nav-item ">
                         <a href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"
@@ -256,9 +256,8 @@
 
         function toggling() {
             alert("amit")
-            //    document.getElementsByClassName("nav").classList.toggle("mobile-nav")
-
-            $(".nav").toggleClass("mobile-nav");
+            var v = document.getElementById("navNav");
+            v.className += "mobile-nav";
         }
     </script>
 </body>
