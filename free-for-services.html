@@ -7,21 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orma Health</title>
 
-    <link rel="stylesheet" href="./Css/Navbar.css">
-    <link rel="stylesheet" href="./Css/free-for-service.css">
+    <!-- <link rel="stylesheet" href="./Css/Navbar.css"> -->
+
+    <link rel="stylesheet" href="./Css/Nav.css">
     <link rel="stylesheet" href="./Css/HomePage.css">
+    <link rel="stylesheet" href="./Css/RangSlider.css">
+    <link rel="stylesheet" href="./Css/free-for-service.css">
+
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
     </script>
+
+    <!-- Libraries for Calculator Slider -->
+    <!-- <link href="bootstrap-slider.css" rel="stylesheet">
+    <script src="bootstrap-slider.js"></script> -->
+
 </head>
 
 <body>
 
-    <section class="mainHeader">
+    <!-- <section class="mainHeader">
         <div class="innerMainHeader">
             <header class="main-header">
                 <div class="logo">
@@ -37,7 +49,6 @@
 
                 <ul class="nav-links">
                     <li class="nav-link"><a href="./index.htm">Home</a></li>
-                    <!-- <li class="nav-link"><a href="./RemotePatient.htm" class="open">Services</a></li> -->
                     <div class="dropdown nav-link" class=" open">
                         <a href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                             Services
@@ -59,7 +70,50 @@
                 </ul>
             </header>
         </div>
-    </section>
+    </section> -->
+    <div class="page-wrapper">
+        <div class="nav-wrapper">
+            <!-- <div class="grad-bar"></div> -->
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="./index.htm">
+                        <img src="./Images/LogoImage.png" alt="">
+                    </a>
+                </div>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav no-search">
+                    <li class="nav-item"><a href="./index.htm">Home</a></li>
+                    <div class="dropdown show nav-item ">
+                        <a href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"
+                            class="open">
+                            Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li class="nav-item"><a class="dropdown-item" href="./free-for-services.html"
+                                    class="open">Fee For
+                                    Service</a></li>
+                            <li class="nav-item"><a class="dropdown-item"
+                                    href="./value-based-care.html">Value-BasedCare</a></li>
+                        </div>
+                    </div>
+                    <li class="nav-item"><a
+                            href="http://ec2-13-232-191-88.ap-south-1.compute.amazonaws.com/Orma/blog/wordpress/">Resources</a>
+                    </li>
+                    <li class="nav-item"><a href="./about.html">About</a></li>
+                    <li class="nav-item"><a href="./affiliate.html">Affiliate</a></li>
+                    <li class="nav-item"><a href="./careers.html">Careers</a></li>
+                    <li class="nav-item"><a href="./Faq.htm">FAQs</a></li>
+                    <!-- <i class="fas fa-search" id="search-icon"></i> -->
+                    <!-- <input class="search-input" type="text" placeholder="Search.."> -->
+                </ul>
+            </nav>
+        </div>
+    </div>
+
 
     <section class="landingPage">
         <div class="innerLandingPage">
@@ -70,7 +124,8 @@
                         comprehensive virtual care to their patients
                         <br><br>
 
-                        Each of the devices can monitor multiple physiological parameters consistently, wirelessly and
+                        Each of the devices can monitor multiple physiological parameters consistently, wirelessly
+                        and
                         in real-time.
                     </p>
                 </div>
@@ -109,8 +164,12 @@
                 <div class="revenue-box-inner">
                     <h3>Enter number of patients</h3>
                     <div class="revenue-input">
-                        <input id="calculateInput" type="number" value="">
-                        <button onclick="calculate()">Calculate</button>
+                        <!-- <input id="calculateInput" type="number" value=""> -->
+                        <!-- <button onclick="calculate()">Calculate</button> -->
+                        <div class="rangeslider-wrap">
+                            <input type="range" min="150" max="210" step="0.1"
+                                labels="150, 160, 170, 180, 190, 200, 210">
+                        </div>
                     </div>
                     <div class="revenue-table">
                         <div class="total-revenue">
@@ -179,7 +238,8 @@
                 </div>
                 <div class="benefit-text">
                     <h1>Easy to Use Devices</h1>
-                    <p>Our devices requires no prior configurations or external wifi connection to record, monitor and
+                    <p>Our devices requires no prior configurations or external wifi connection to record, monitor
+                        and
                         transmit data continuously. They just work.
                     </p>
                 </div>
@@ -193,8 +253,10 @@
                 </div>
                 <div class="benefit-text">
                     <h1>Onboard within minutes</h1>
-                    <p>There is just a simple signup between you and your remote care practice. The patients will get
-                        the devices within days. Orma is the fastest & easiest way to get remote patient monitoring in
+                    <p>There is just a simple signup between you and your remote care practice. The patients will
+                        get
+                        the devices within days. Orma is the fastest & easiest way to get remote patient monitoring
+                        in
                         your practice.
                     </p>
                 </div>
@@ -206,7 +268,8 @@
         <div class="inner-device-suit">
             <div class="device-suit-heading">
                 <h1>The ORMA Device Suite</h1>
-                <p>We provide EHR connected Remote Patient Monitoring hardware to create a seamless customer experience
+                <p>We provide EHR connected Remote Patient Monitoring hardware to create a seamless customer
+                    experience
                 </p>
             </div>
             <div class="device-suit-photo">
@@ -253,7 +316,8 @@
                     </div>
                     <div></div>
                     <div class="device-features-grid-content">
-                        <h5>Data transmitted in realtime with automated alerts and reminders to keep using the devices
+                        <h5>Data transmitted in realtime with automated alerts and reminders to keep using the
+                            devices
                         </h5>
                     </div>
                 </div>
@@ -299,7 +363,7 @@
         </div>
     </section>
 
-    <section class="impact-graph-section">
+    <!-- <section class="impact-graph-section">
         <div class="inner-impact-graph-section">
             <div class="impact-graph-heading">
                 <h1>The Orma Impact</h1>
@@ -309,25 +373,10 @@
                 <img src="./Images1/graph.png">
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="mainFooter">
         <img class="footerDots" src="./Images/dots.png" alt="">
-        <!-- <section class="getEstimate">
-            <div class="innerGetEstimate">
-                <div class="edtimateDiv">
-                    <div class="estimateText">
-                        <h3>Let's Get Started</h3>
-                        <p>Ready to learn more about Orma's RPM Platform</p>
-                    </div>
-                    <div class="estimateBtnArea">
-                        <div class="estimateBtn">
-                            <button>Request a Demo</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
         <footer class="innerFooter">
             <div class="footerContent">
                 <div class="footerHeading">
@@ -354,7 +403,8 @@
                                 style="text-decoration: none; color: white;">Resources</a></li>
                         <li><a href="./about.html" style="text-decoration: none; color: white;">About</a></li>
 
-                        <li><a href="./affiliate.html" style="text-decoration: none; color: white;">Affiliate</a></li>
+                        <li><a href="./affiliate.html" style="text-decoration: none; color: white;">Affiliate</a>
+                        </li>
                         <li><a href="./careers.html" style="text-decoration: none; color: white;">Careers</a></li>
                         <li><a href="./Faq.htm" style="text-decoration: none; color: white;">FAQs</a></li>
                     </ul>
@@ -368,6 +418,8 @@
 
     <script src="../Js/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/8824f22092.js" crossorigin="anonymous"></script>
+    <script src="./Css/Nav.js"></script>
+    <script src="./Js/RangSlider.js"></script>
     <script>
         const calculate = () => {
             var x = document.getElementById("calculateInput").value;

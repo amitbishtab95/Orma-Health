@@ -61,7 +61,6 @@
   background-color: #93c1f9;
   border-bottom-left-radius: 40%;
   padding-bottom: 2%;
-  /* width: 100%; */
 }
 
 /* earning section */
@@ -79,8 +78,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* background-color: #cf2626; */
   margin-bottom: 3%;
+  /* background-color: #cf2626; */
 }
 .earningHeading {
   width: 50%;
@@ -146,7 +145,6 @@ form .form-row div:nth-child(2) {
 }
 .form-start form .form-group {
   margin-top: 3%;
-  /* width: 80%; */
 }
 .form-start form label {
   font-family: "Poppins";
@@ -249,7 +247,6 @@ form .form-row div:nth-child(2) {
   }
   .footerCompany h2 {
     font-size: 1.8rem;
-    /* text-align: center; */
   }
   .footerCompany ul {
     margin-top: 0;
@@ -303,9 +300,7 @@ form .form-row div:nth-child(2) {
   .earningHeading p {
     padding: 0 10%;
     font-size: 1rem;
-    /* font-weight: lighter; */
     line-height: 120%;
-    /* display: none; */
   }
   .form-box-inner h2 {
     font-size: 1.3rem;
@@ -329,62 +324,20 @@ form .form-row div:nth-child(2) {
   .form-start form button {
     width: 40%;
   }
-  /* Footer */
-  /* .innerFooter {
-    flex-direction: column-reverse;
-    padding-top: 2rem;
-    align-items: center;
-  } */
-  /* .footerContent {
-    width: 80%;
-  } */
   .footerHeading {
-    /* justify-content: center; */
     margin-top: 4%;
   }
   .footerHeading h2 {
     font-size: 1.5rem;
   }
-  /* .footerInfo,
-  .copyrights {
-    text-align: center;
-  } */
   .footerInfo p,
   .copyrights p {
     font-size: 1rem;
   }
-  /* .footerMaps {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-  } */
   .footerCompany {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
     display: none;
   }
-  /* .footerCompany h2 {
-    font-size: 1.8rem;
-  } */
-  /* .footerCompany ul {
-    margin-top: 0;
-    display: flex;
-    padding-left: 0;
-  } */
-  /* .footerCompany ul li {
-    font-size: 1.3rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 0;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  } */
   .footerMapImage {
-    /* margin-left: 0; */
     display: flex;
     justify-content: center;
   }

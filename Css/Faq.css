@@ -30,71 +30,12 @@ body {
   font-weight: 500;
   line-height: 125%;
   color: #1b2050;
-  /* margin-bottom: 4%; */
 }
 .innerFaqHeading p {
   font-family: "Poppins";
   text-transform: uppercase;
-  /* font-size: 0.01rem !important; */
   color: #444760;
   font-weight: 300;
-}
-
-.mainSearch {
-  width: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  margin-top: 5%;
-}
-.innerSearch {
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.searching {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  background-color: #fff;
-  border-radius: 999px;
-  height: 70px;
-  /* height:50% */
-  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
-}
-.searchIcon {
-  /* width: 6%; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 20px;
-}
-.search {
-  width: 20px;
-  height: 20px;
-  object-fit: contain;
-}
-.searchArea {
-  width: 95%;
-  /* background-color: red; */
-  height: 80%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: stretch;
-}
-.searchArea input {
-  width: 100%;
-  padding-left: 20px;
-  font-family: "Poppins";
-  font-weight: 400;
-  outline: none;
-  border: none;
-  font-size: 1.2rem;
-}
-.searchInput {
-  border-radius: 999px;
 }
 
 /* FAQ  */
@@ -108,8 +49,8 @@ body {
 }
 .inner_faq {
   width: 73%;
-  /* background-color: mediumseagreen; */
   margin: auto;
+  /* background-color: mediumseagreen; */
 }
 .faq_heading {
   width: 100%;
@@ -125,7 +66,6 @@ body {
   font-family: "Work Sans";
   font-weight: bold;
   font-size: 4rem;
-  /* margin-right: 20px; */
   color: #000;
 }
 .heading_faq img {
@@ -178,9 +118,7 @@ body {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
-  /* font-size: 24px; */
   line-height: 167.5%;
-  /* text-transform: capitalize; */
   color: #484848;
 }
 
@@ -239,7 +177,6 @@ body {
   }
   .footerCompany h2 {
     font-size: 1.8rem;
-    /* text-align: center; */
   }
   .footerCompany ul {
     margin-top: 0;
@@ -270,71 +207,27 @@ body {
   }
   .inner_faq {
     width: 90%;
-    /* background-color: blue; */
   }
   .accordion-item button {
     font-size: 1rem;
-    /* text-align: justify; */
   }
   .accordion-body {
     font-size: 1rem;
   }
-  /* Footer */
-  /* .innerFooter {
-    flex-direction: column-reverse;
-    padding-top: 2rem;
-    align-items: center;
-  } */
-  /* .footerContent {
-    width: 80%;
-  } */
   .footerHeading {
-    /* justify-content: center; */
     margin-top: 4%;
   }
   .footerHeading h2 {
     font-size: 1.5rem;
   }
-  /* .footerInfo,
-  .copyrights {
-    text-align: center;
-  } */
   .footerInfo p,
   .copyrights p {
     font-size: 1rem;
   }
-  /* .footerMaps {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-  } */
   .footerCompany {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
     display: none;
   }
-  /* .footerCompany h2 {
-    font-size: 1.8rem;
-  } */
-  /* .footerCompany ul {
-    margin-top: 0;
-    display: flex;
-    padding-left: 0;
-  } */
-  /* .footerCompany ul li {
-    font-size: 1.3rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 0;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  } */
   .footerMapImage {
-    /* margin-left: 0; */
     display: flex;
     justify-content: center;
   }
