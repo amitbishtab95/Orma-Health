@@ -271,7 +271,6 @@
     display: block;
     cursor: pointer;
     z-index: 999;
-    background-color: red;
   }
   .mobile-nav {
     transform: translate(0%) !important;
