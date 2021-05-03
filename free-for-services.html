@@ -77,7 +77,7 @@
     </div>
 
 
-    <!-- <section class="landingPage">
+    <section class="landingPage">
         <div class="innerLandingPage">
             <div class="landingPageContent">
                 <div class="landingPageHeading">
@@ -114,9 +114,9 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
-    <!-- <section class="revenue-section">
+    <section class="revenue-section">
         <div class="innerRevenueSection">
             <div class="revenue-heading">
                 <h1> Boost Your Practice Revenue With Orma</h1>
@@ -128,7 +128,7 @@
                     <div class="revenue-input">
                         <input id="calculateInput" type="number" value="">
                         <button onclick="calculate()">Calculate</button>
-                        
+
                     </div>
                     <div class="revenue-table">
                         <div class="total-revenue">
@@ -167,9 +167,9 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
-    <!-- <section class="benefit-section">
+    <section class="benefit-section">
         <div class="benefit-heading-div">
             <h1>Other Key Benefits</h1>
         </div>
@@ -221,9 +221,9 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
-    <!-- <section class="device-suit-section">
+    <section class="device-suit-section">
         <div class="inner-device-suit">
             <div class="device-suit-heading">
                 <h1>The ORMA Device Suite</h1>
@@ -243,9 +243,9 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
-    <!-- <section class="device-features">
+    <section class="device-features">
         <div class="device-featurs-inner">
             <div class="device-feature-heading">
                 <h1>Device Features</h1>
@@ -281,9 +281,9 @@
                     </div>
                 </div>
             </div>
-    </section> -->
+    </section>
 
-    <!-- <section class="on-boarding-section">
+    <section class="on-boarding-section">
         <div class="inner-on-boarding-section">
             <div class="on-boarding-heading">
                 <h1>Get On-boarded in <br>
@@ -320,7 +320,7 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
     <!-- <section class="impact-graph-section">
         <div class="inner-impact-graph-section">
@@ -334,7 +334,7 @@
         </div>
     </section> -->
 
-    <!-- <section class="mainFooter">
+    <section class="mainFooter">
         <img class="footerDots" src="./Images/dots.png" alt="">
         <footer class="innerFooter">
             <div class="footerContent">
@@ -373,7 +373,7 @@
                 </div>
             </div>
         </footer>
-    </section> -->
+    </section>
 
     <script src="../Js/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/8824f22092.js" crossorigin="anonymous"></script>
@@ -403,6 +403,14 @@
                 .getElementById("profitValue").innerHTML = tr - feevalue;
 
         };
+
+        $('.menu-toggle').click(function () {
+            alert("zaid");
+            $(".nav").toggleClass("mobile-nav");
+            $(".page-wrapper").toggleClass("stick");
+            // $(".logo").toggleClass("logoMargin");
+            $(this).toggleClass("is-active");
+        });
     </script>
 </body>
 
