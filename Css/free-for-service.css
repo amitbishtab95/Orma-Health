@@ -155,9 +155,10 @@
   box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.04),
     0px 4px 56px rgba(0, 0, 0, 0.04);
   border-radius: 10px;
-  width: 80%;
+  width: 60%;
   margin: auto;
-  padding: 5%;
+  padding: 2% 5%;
+  /* background-color: chartreuse; */
 }
 .revenue-box .revenue-box-inner h3 {
   font-family: "Poppins";
@@ -168,16 +169,16 @@
   color: #000000d9;
   margin-bottom: 2%;
 }
-/* .revenue-box-inner .revenue-input input {
+.revenue-box-inner .revenue-input input {
   background: #fbfbfb;
   border: 1px solid #d9d9d9;
   box-sizing: border-box;
   border-radius: 6px;
   width: 25%;
   height: 50px;
-} */
-/* .revenue-box-inner .revenue-input button {
-  width: 12%;
+}
+.revenue-box-inner .revenue-input button {
+  width: 15%;
   height: 50px;
   outline: none;
   border: none;
@@ -188,7 +189,7 @@
   font-size: 0.9rem;
   border-radius: 5px;
   cursor: pointer;
-} */
+}
 
 /* .revenue-input .rangeslider-wrap input {
   background: #fbfbfb;
@@ -659,7 +660,7 @@
     padding: 0 10%;
   }
   .revenue-box {
-    width: 85%;
+    width: 70%;
   }
   .revenue-box .revenue-box-inner h3 {
     font-size: 1.5rem;
@@ -847,7 +848,8 @@
     margin-top: 4%;
   }
   .revenue-box {
-    width: 90%;
+    width: 95%;
+    /* background-color: chartreuse; */
   }
   .revenue-box .revenue-box-inner h3 {
     font-size: 1.3rem;
@@ -861,10 +863,10 @@
     align-items: center;
   }
   .revenue-box-inner .revenue-input input {
-    width: 100%;
+    width: 82%;
   }
   .revenue-box-inner .revenue-input button {
-    width: 58%;
+    width: 50%;
     margin-top: 4%;
   }
   .total-revenue h4,
@@ -872,7 +874,7 @@
     font-size: 1rem;
   }
   .revenue-points .revenue-points-div {
-    flex-direction: column;
+    /* flex-direction: column; */
     margin: 2% 0;
     align-items: center;
     /* justify-content: center; */
@@ -881,7 +883,7 @@
   }
   .revenue-points .revenue-points-div h6,
   .revenue-points .revenue-points-div p {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   /* benefit section */

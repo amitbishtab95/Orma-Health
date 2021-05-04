@@ -381,10 +381,16 @@
         ];
         var counter = 0;
         var elem = document.getElementById("changeText");
-        var inst = setInterval(change, 4000);
+        var inst = setInterval(change, 5000);
 
         function change() {
-            elem.innerHTML = text[counter];
+            // elem.innerHTML = text[counter];
+            // new TypeIt("#changeText", {
+            //     strings: text[counter],
+            //     speed: 50,
+            //     // loop: false
+            //     waitUntilVisible: true
+            // }).go();
             counter++;
             if (counter >= text.length) {
                 counter = 0;
