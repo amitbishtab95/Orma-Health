@@ -169,7 +169,7 @@
   color: #000000d9;
   margin-bottom: 2%;
 }
-.revenue-box-inner .revenue-input input {
+/* .revenue-box-inner .revenue-input input {
   background: #fbfbfb;
   border: 1px solid #d9d9d9;
   box-sizing: border-box;
@@ -189,7 +189,7 @@
   font-size: 0.9rem;
   border-radius: 5px;
   cursor: pointer;
-}
+} */
 
 /* .revenue-input .rangeslider-wrap input {
   background: #fbfbfb;

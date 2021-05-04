@@ -1,42 +1,38 @@
-$('input[type="range"]').rangeslider({
-    // Feature detection the default is `true`.
-    // Set this to `false` if you want to use
-    // the polyfill also in Browsers which support
-    // the native <input type="range"> element.
-    polyfill: false,
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
 
-    // Default CSS classes
-    rangeClass: 'rangeslider',
-    disabledClass: 'rangeslider--disabled',
-    horizontalClass: 'rangeslider--horizontal',
-    fillClass: 'rangeslider__fill',
-    handleClass: 'rangeslider__handle',
+slider.oninput = function () {
+    // alert("hii")
+    output.innerHTML = this.value;
 
-    // Callback function
-    onInit: function () {
-        $rangeEl = this.$range;
-        // add value label to handle
-        var $handle = $rangeEl.find('.rangeslider__handle');
-        var handleValue = '<div class="rangeslider__handle__value">' + this.value + '</div>';
-        $handle.append(handleValue);
+    var x = document.getElementById("myRange").value;
+    // console.log(x)
+    // alert("hi");
+    var firstvalue = 19 * x;
+    var secondvalue = 62 * 12 * x;
+    var thirdvalue = 51 * 12 * x;
 
-        // get range index labels 
-        var rangeLabels = this.$element.attr('labels');
-        rangeLabels = rangeLabels.split(', ');
+    document.getElementById("firstValue").innerHTML = firstvalue;
+    document.getElementById(
+        "secondValue").innerHTML = secondvalue;
+    document.getElementById("thirdValue").innerHTML =
+        thirdvalue;
 
-        // add labels
-        $rangeEl.append('<div class="rangeslider__labels"></div>');
-        $(rangeLabels).each(function (index, value) {
-            $rangeEl.find('.rangeslider__labels').append('<span class="rangeslider__labels__label">' + value + '</span>');
-        })
-    },
+    var tr = firstvalue + secondvalue + thirdvalue;
+    document.getElementById("totalRevenue")
+        .innerHTML = tr;
 
-    // Callback function
-    onSlide: function (position, value) {
-        var $handle = this.$range.find('.rangeslider__handle__value');
-        $handle.text(this.value);
-    },
+    var feevalue = 30 * x;
+    document.getElementById("feeValue").innerHTML = feevalue;
+    document
+        .getElementById("profitValue").innerHTML = tr - feevalue;
 
-    // Callback function
-    onSlideEnd: function (position, value) { }
-});
+
+}
+
+
+// const calculate = () => {
+
+
+// };
