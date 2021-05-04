@@ -44,12 +44,12 @@
                         <img src="./Images/LogoImage.png" alt="">
                     </a>
                 </div>
-                <div class="menu-toggle" id="mobile-menu">
+                <div onclick="toggling()" class="menu-toggle" id="mobile-menu">
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
                 </div>
-                <ul class="nav no-search">
+                <ul id="navNav" class="nav no-search">
                     <li class="nav-item"><a href="./index.htm">Home</a></li>
                     <div class="dropdown show nav-item ">
                         <a href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
@@ -378,7 +378,7 @@
     <!-- <script src="../Js/jquery.min.js"></script> -->
     <script src="https://kit.fontawesome.com/8824f22092.js" crossorigin="anonymous"></script>
 
-    <script src="./Css/Nav.js"></script>
+    <!-- <script src="./Css/Nav.js"></script> -->
     <script>
         const calculate = () => {
             var x = document.getElementById("calculateInput").value;
@@ -402,16 +402,17 @@
             document
                 .getElementById("profitValue").innerHTML = tr - feevalue;
 
-        };
+            function toggling() {
+                var element = document.getElementById("navNav");
+                element.classList.toggle("mobile-nav");
 
-        // $('.menu-toggle').click(function () {
-        //     alert("zaid");
-        //     $(".nav").toggleClass("mobile-nav");
-        //     $(".page-wrapper").toggleClass("stick");
-        //     // $(".logo").toggleClass("logoMargin");
-        //     $(this).toggleClass("is-active");
-        // });
+                var mm = document.getElementById("mobile-menu");
+                mm.classList.toggle("is-active");
+            }
+
+        };
     </script>
+
 </body>
 
 </html>
