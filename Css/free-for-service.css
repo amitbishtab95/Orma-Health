@@ -878,12 +878,12 @@
     margin: 2% 0;
     align-items: center;
     /* justify-content: center; */
-    text-align: center;
+    /* text-align: center; */
     /* background-color: tomato; */
   }
   .revenue-points .revenue-points-div h6,
   .revenue-points .revenue-points-div p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   /* benefit section */
