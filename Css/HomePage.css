@@ -871,7 +871,7 @@
     display: block;
     font-size: 1rem;
     position: absolute;
-    line-height: 167.5%;
+    /* line-height: 167.5%; */
     top: 28%;
   }
   .contentArea div:nth-child(2) {
