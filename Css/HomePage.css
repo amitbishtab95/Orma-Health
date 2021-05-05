@@ -880,7 +880,6 @@
     justify-content: center;
     align-items: center;
   }
-
   .contentArea .btn-1 {
     margin-bottom: 3%;
     display: none;
@@ -892,7 +891,7 @@
   }
   .contentArea .btn-2 {
     position: absolute;
-    top: 30% !important;
+    top: 33% !important;
   }
   .imageArea img {
     height: 100%;
