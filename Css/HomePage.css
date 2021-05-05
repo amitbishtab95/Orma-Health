@@ -20,7 +20,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 3%;
-  position: relative;
+  /* position: relative; */
 }
 .innerMainHeader {
   width: 100%;
@@ -35,6 +35,7 @@
   display: flex;
   justify-content: center;
   margin-bottom: 11%;
+  /* position: relative; */
 }
 .landingDotsImage {
   position: absolute;
@@ -48,9 +49,16 @@
   margin-bottom: 2%;
 }
 .contentArea {
-  width: 100%;
+  width: 95%;
   margin-top: 7%;
   padding-left: 5%;
+  /* background-color: darkgoldenrod; */
+}
+.contentArea div:nth-child(1) {
+  /* background-color: darkgray; */
+}
+.contentArea div:nth-child(2) {
+  /* background-color: darkkhaki; */
 }
 .contentArea div:nth-child(1) h1 {
   font-family: "Poppins";
@@ -67,6 +75,10 @@
   line-height: 167.5%;
   color: #484848;
   margin-bottom: 5%;
+  padding-right: 7%;
+}
+.contentArea div:nth-child(1) .contentArea-p-two {
+  display: none;
 }
 .contentArea .btn-1 {
   width: 40%;
@@ -80,7 +92,7 @@
   font-size: 0.9rem;
   border-radius: 15px;
   cursor: pointer;
-  margin-left: 2%;
+  /* margin-left: 2%; */
 }
 .contentArea .btn-2 {
   width: 40%;
@@ -186,6 +198,13 @@
 }
 .imapct-text {
   width: 75%;
+  /* background-color: darkgoldenrod; */
+  text-align: center;
+}
+.imapct-text-first-box {
+  /* margin-left: -10%; */
+  position: relative;
+  left: -8%;
 }
 .company_image .card-images-bg div {
   width: 60px;
@@ -214,18 +233,27 @@
   font-weight: 300;
   line-height: 167.5%;
   color: #484848;
+  text-transform: capitalize;
 }
 .company_image .imapct-text .imapct-text-one {
-  margin-left: 17%;
+  /* margin-left: 17%; */
+  text-align: center;
 }
 .company_image .imapct-text .imapct-text-two {
-  margin-left: 30%;
+  /* margin-left: 30%; */
+  text-align: center;
 }
 .company_image .imapct-text .imapct-text-three {
-  margin-left: 23%;
+  /* margin-left: 23%; */
+  text-align: center;
+  position: relative;
+  right: 1%;
 }
 .company_image .imapct-text .imapct-text-four {
-  margin-left: 26%;
+  /* margin-left: 26%; */
+  text-align: center;
+  position: relative;
+  right: -1%;
 }
 
 /* third section */
@@ -668,6 +696,11 @@
   .company_image .imapct-text {
     text-align: center;
   }
+  .imapct-text-first-box {
+    /* margin-left: -10%; */
+    position: relative;
+    left: 0;
+  }
   .company_image .imapct-text .imapct-text-one {
     margin-left: 0;
     text-align: center;
@@ -818,12 +851,24 @@
     align-items: flex-start;
   }
   .contentArea {
+    width: 100%;
     margin-top: 11%;
   }
   .contentArea div:nth-child(1) h1 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 20%;
+    width: 55%;
   }
   .contentArea div:nth-child(1) p {
+    font-size: 1rem;
+    padding-right: 0;
+  }
+  .contentArea div:nth-child(1) .contentArea-p-one {
+    display: none;
+  }
+  .contentArea div:nth-child(1) .contentArea-p-two {
+    display: block;
     font-size: 1rem;
   }
   .contentArea div:nth-child(2) {
@@ -834,6 +879,7 @@
   }
   .contentArea .btn-1 {
     margin-bottom: 3%;
+    display: none;
   }
   .contentArea .btn-1,
   .contentArea .btn-2 {
@@ -844,6 +890,7 @@
     height: 100%;
     width: 100%;
     position: relative;
+    right: -2%;
   }
   /* Modal */
   .outer-modal {
@@ -891,13 +938,21 @@
   }
   .innerCompanies {
     width: 100%;
+    /* background-color: coral; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .CompanyHeading h1 {
     font-size: 1.5rem;
   }
   .innerCompanies .companyCards {
     /* justify-content: center; */
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6); */
+    /* background-color: cornflowerblue; */
+    width: 95%;
+    box-shadow: none;
   }
   .company_image .card-images-bg {
     display: none;
@@ -910,6 +965,11 @@
   .company_image .imapct-text {
     text-align: center;
     margin: 0;
+  }
+  .imapct-text-first-box {
+    /* margin-left: -10%; */
+    position: relative;
+    left: 0;
   }
   .company_image .imapct-text p {
     font-size: 1rem;
