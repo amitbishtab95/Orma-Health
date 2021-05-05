@@ -892,7 +892,7 @@
   }
   .contentArea .btn-2 {
     position: absolute;
-    top: 32%;
+    top: 30% !important;
   }
   .imageArea img {
     height: 100%;
