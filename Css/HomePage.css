@@ -875,7 +875,7 @@
   }
   .contentArea div:nth-child(1) .contentArea-p-two {
     display: block;
-    font-size: 1rem;
+    font-size: 0.9rem;
     /* position: absolute; */
     line-height: 150%;
     /* top: 22%; */
@@ -899,7 +899,7 @@
   .contentArea .btn-2 {
     /* position: absolute; */
     /* top: 33% !important; */
-    width: 45% !important;
+    width: 42% !important;
 
     /* width: 40%; */
     height: 40px !important;
