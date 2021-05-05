@@ -380,17 +380,24 @@
             "Improving Practice Finance "
         ];
         var counter = 0;
+
+        // new TypeIt("#changeText", {
+        //     strings: ["Managing Chronic Conditions", "Completing Care Continuum",
+        //         "Preventing Unnecessary Hospitalization", "Enabling Virtual Wellness Visits",
+        //         "Improving Practice Finance "
+        //     ],
+        //     speed: 40,
+        //     // waitUntilVisible: true,
+        //     // startDelete: true
+        // }).go();
         var elem = document.getElementById("changeText");
-        var inst = setInterval(change, 5000);
+        elem.innerHTML = text[counter];
+        counter++;
+        var inst = setInterval(change, 4000);
+
 
         function change() {
-            // elem.innerHTML = text[counter];
-            // new TypeIt("#changeText", {
-            //     strings: text[counter],
-            //     speed: 50,
-            //     // loop: false
-            //     waitUntilVisible: true
-            // }).go();
+            elem.innerHTML = text[counter];
             counter++;
             if (counter >= text.length) {
                 counter = 0;

@@ -254,7 +254,7 @@ html {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
   }
   .photoSectionHeading h1 {
     font-size: 1.5rem;
@@ -264,7 +264,7 @@ html {
   }
   .photoSectionPart-top {
     flex-direction: column;
-    align-items: center;
+    align-items: center !important;
     justify-content: center;
     flex-wrap: wrap;
   }
@@ -292,11 +292,13 @@ html {
   }
   .photoSectionPart-topInner,
   .photoSectionPart-bottomInner {
-    width: 45%;
+    width: 55%;
+    margin-right: 0;
   }
   .photoSectionPart-topInner img,
   .photoSectionPart-bottomInner img {
     margin-bottom: 2%;
+    width: 100%;
   }
   /* Footer */
   .footerHeading {
