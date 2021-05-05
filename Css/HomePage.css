@@ -871,7 +871,7 @@
     display: block;
     font-size: 1rem;
     position: absolute;
-    line-height: 100%;
+    line-height: 167.5%;
     top: 28%;
   }
   .contentArea div:nth-child(2) {
@@ -893,7 +893,7 @@
     height: 100%;
     width: 100%;
     position: relative;
-    right: -2%;
+    right: -4%;
   }
   /* Modal */
   .outer-modal {
