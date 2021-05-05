@@ -5,7 +5,7 @@ $("#search-icon").click(function () {
 });
 
 $('.menu-toggle').click(function () {
-    alert("zaid");
+    // alert("zaid");
     $(".nav").toggleClass("mobile-nav");
     $(".page-wrapper").toggleClass("stick");
     // $(".logo").toggleClass("logoMargin");
