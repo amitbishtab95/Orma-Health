@@ -909,7 +909,7 @@
     height: 100%;
     width: 100%;
     position: relative;
-    right: -4%;
+    /* right: -4%; */
   }
   /* Modal */
   .outer-modal {
