@@ -849,16 +849,20 @@
     flex-direction: column-reverse;
     width: 100%;
     align-items: flex-start;
+    position: relative;
   }
   .contentArea {
     width: 100%;
-    margin-top: 11%;
+    /* margin-top: 11%; */
+    margin-top: 1%;
+    position: absolute;
+    top: 0;
   }
   .contentArea div:nth-child(1) h1 {
     font-size: 1.5rem;
-    position: absolute;
-    top: 12%;
-    width: 55%;
+    /* position: absolute; */
+    /* top: 1%; */
+    width: 60%;
   }
   .contentArea div:nth-child(1) p {
     font-size: 1rem;
@@ -870,9 +874,10 @@
   .contentArea div:nth-child(1) .contentArea-p-two {
     display: block;
     font-size: 1rem;
-    position: absolute;
+    /* position: absolute; */
     line-height: 150%;
-    top: 22%;
+    /* top: 22%; */
+    /* display: none; */
   }
   .contentArea div:nth-child(2) {
     display: flex;
@@ -890,8 +895,8 @@
     margin-left: 0;
   }
   .contentArea .btn-2 {
-    position: absolute;
-    top: 33% !important;
+    /* position: absolute; */
+    /* top: 33% !important; */
   }
   .imageArea img {
     height: 100%;
