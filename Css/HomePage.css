@@ -878,12 +878,13 @@
     line-height: 150%;
     /* top: 22%; */
     /* display: none; */
+    margin-bottom: 2%;
   }
   .contentArea div:nth-child(2) {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
   .contentArea .btn-1 {
     margin-bottom: 3%;
@@ -891,12 +892,26 @@
   }
   .contentArea .btn-1,
   .contentArea .btn-2 {
-    width: 55%;
+    /* width: 55%; */
     margin-left: 0;
   }
   .contentArea .btn-2 {
     /* position: absolute; */
     /* top: 33% !important; */
+    width: 50%;
+
+    /* width: 40%; */
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: #1b2050;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Poppins";
+    font-size: 0.5rem;
+    border-radius: 15px;
+    cursor: pointer;
+    /* margin-left: 3%; */
   }
   .imageArea img {
     height: 100%;
