@@ -899,7 +899,7 @@
   .contentArea .btn-2 {
     /* position: absolute; */
     /* top: 33% !important; */
-    width: 40% !important;
+    width: 100% !important;
 
     /* width: 40%; */
     height: 40px !important;
