@@ -857,7 +857,7 @@
   .contentArea div:nth-child(1) h1 {
     font-size: 1.5rem;
     position: absolute;
-    top: 15%;
+    top: 12%;
     width: 55%;
   }
   .contentArea div:nth-child(1) p {
@@ -871,14 +871,18 @@
     display: block;
     font-size: 1rem;
     position: absolute;
-    /* line-height: 167.5%; */
-    top: 28%;
+    line-height: 150%;
+    top: 22%;
   }
   .contentArea div:nth-child(2) {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .contentArea .btn-2 {
+    position: absolute;
+    top: 25%;
   }
   .contentArea .btn-1 {
     margin-bottom: 3%;
