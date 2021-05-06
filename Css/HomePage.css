@@ -1001,7 +1001,7 @@
   }
   .company_image2 .imapct-text2 {
     font-family: "Poppins";
-    margin-left: 6%;
+    /* margin-left: 6%; */
     width: 85%;
     text-align: center;
     margin: 0;
