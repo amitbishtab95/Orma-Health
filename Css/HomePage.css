@@ -978,6 +978,7 @@
     justify-content: center;
     align-items: center;
     width: 50%;
+    /* width: max-content; */
     overflow: hidden;
     padding: 0.5rem;
     height: max-content;
@@ -1002,19 +1003,23 @@
   .company_image2 .imapct-text2 {
     font-family: "Poppins";
     /* margin-left: 6%; */
-    width: 85%;
+    width:10rem
+
     text-align: center;
     margin: 0;
     display: flex;
     justify-content: center !important;
     align-items: center;
     flex-direction: column !important;
-    /* background-color: violet; */
+    background-color: violet;
   }
   .company_image2 h1 {
     font-weight: bold;
     color: #0b132a;
+    display: flex;
+    align-items: center;
     /* font-size: 2rem; */
+    /* margin:0; */
   }
 
   .company_image2 .imapct-text2 p {
@@ -1025,6 +1030,7 @@
     color: #484848;
     font-size: 0.6rem;
     text-transform: capitalize;
+    text-align: center;
   }
   .company_image2 .imapct-text-one2 {
     margin-left: 0;
