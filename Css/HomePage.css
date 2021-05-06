@@ -169,7 +169,6 @@
   line-height: 130%;
   color: #1b2050;
 }
-
 .innerCompanies .companyCards {
   width: 100%;
   display: flex;
@@ -179,6 +178,9 @@
   flex-wrap: wrap;
   padding: 0 1rem;
   box-shadow: 0px 10px 45px 2px rgba(0, 0, 0, 0.6);
+}
+.innerCompanies .companyCards2 {
+  display: none;
 }
 .company_image {
   display: flex;
@@ -954,24 +956,107 @@
     font-size: 1.5rem;
   }
   .innerCompanies .companyCards {
-    /* justify-content: center; */
-    /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6); */
-    /* background-color: cornflowerblue; */
     width: 95%;
     box-shadow: none;
     display: flex;
-    /* background-color: tomato; */
     padding: 0;
+    display: none;
   }
-  .company_image {
+  /* cards2 structure */
+  .innerCompanies .companyCards2 {
+    width: 95%;
+    box-shadow: none;
+    display: flex;
+    padding: 0;
+    background: #fff;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    /* background-color: yellow; */
+  }
+  .company_image2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    overflow: hidden;
+    padding: 0.5rem;
+    height: max-content;
+    /* background-color: tomato; */
+  }
+  .company_image2 .imapct-text2 .card-images-bg2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    /* background-color: turquoise; */
+  }
+  .company_image2 .card-images-bg2 div {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background-color: #ffecec;
+    /* background-color: indigo; */
+  }
+  .company_image2 .imapct-text2 {
+    font-family: "Poppins";
+    margin-left: 6%;
+    width: 85%;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    flex-direction: column !important;
+    /* background-color: violet; */
+  }
+  .company_image2 h1 {
+    font-weight: bold;
+    color: #0b132a;
+    /* font-size: 2rem; */
+  }
+
+  .company_image2 .imapct-text2 p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    line-height: 167.5%;
+    color: #484848;
+    font-size: 0.6rem;
+    text-transform: capitalize;
+  }
+  .company_image2 .imapct-text-one2 {
+    margin-left: 0;
+    text-align: center;
+    font-size: 1rem;
+  }
+  /* .imapct-text-first-box {
+    left: 0;
+  } */
+  .company_image2 .imapct-text-two2 {
+    margin-left: 0;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .company_image2 .imapct-text-three2 {
+    margin-left: 0;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .company_image2 .imapct-text-four2 {
+    margin-left: 0;
+    text-align: center;
+    font-size: 1rem;
+  }
+  /* .company_image {
     flex-direction: column;
     align-items: center;
-    /* background-color: tomato; */
-    /* height: max-content; */
+    width: 50%;
+    margin-left: 0%;
+    margin-right: 0%;
   }
   .company_image .card-images-bg {
-    /* display: none; */
-    /* background-color: yellow; */
     width: 30%;
   }
   .company_image .card-images-bg div {
@@ -982,13 +1067,6 @@
     place-items: center;
     background-color: #ffecec;
   }
-  .company_image {
-    /* width: 100%; */
-    width: 50%;
-    margin-left: 0%;
-    margin-right: 0%;
-    /* background-color: turquoise; */
-  }
   .company_image .imapct-text {
     text-align: center;
     margin: 0;
@@ -996,7 +1074,6 @@
     justify-content: center !important;
     align-items: center;
     flex-direction: row !important;
-    /* background-color: tomato; */
   }
   .imapct-text-first-box {
     position: relative;
@@ -1027,7 +1104,7 @@
     margin-left: 0;
     text-align: center;
     font-size: 1rem;
-  }
+  } */
   /* third section */
   .innerThirdSection-text h1 {
     font-size: 1.5rem;
