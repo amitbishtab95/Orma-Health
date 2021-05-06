@@ -1141,6 +1141,9 @@
     position: relative;
     padding-top: 11%;
   }
+  .innerFourSection .innerFourSection-right {
+    padding-left: 5.9%;
+  }
   .innerFourSection-left img {
     height: 20rem;
     width: 20rem;
