@@ -1032,12 +1032,14 @@
   }
   .company_image2 .imapct-text-one2 {
     margin-left: 0;
-    text-align: center;
+    /* text-align: center; */
     font-size: 1rem;
+    position: relative;
+    padding-left: 3%;
   }
-  /* .imapct-text-first-box {
-    left: 0;
-  } */
+  .imapct-text-first-box {
+    padding-left: 4%;
+  }
   .company_image2 .imapct-text-two2 {
     margin-left: 0;
     text-align: center;
