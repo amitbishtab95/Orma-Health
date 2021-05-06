@@ -316,7 +316,7 @@
   align-items: center;
   padding-top: 5%;
   padding-bottom: 5%;
-  background-color: #f6faff;
+  background-color: #fff;
 }
 .innerFourSection {
   width: 100%;
@@ -378,6 +378,7 @@
   align-items: center;
   padding-top: 7%;
   padding-bottom: 4%;
+  background-color: #f6faff;
 }
 .innerFiveSection {
   width: 100%;
@@ -434,12 +435,16 @@
 /* graph carousel */
 
 /* graph-section */
+.graph-carousel {
+  background-color: #fff;
+}
 .inner-impact-graph-section {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: #fff;
 }
 .impact-graph-heading {
   text-align: center;
@@ -1124,7 +1129,7 @@
     padding: 0 2%;
   }
   .innerThirdSection-text p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     width: 80%;
   }
   .innerThirdSection-img img {
@@ -1133,6 +1138,8 @@
   /* section four */
   .innerFourSection {
     flex-direction: column;
+    position: relative;
+    padding-top: 11%;
   }
   .innerFourSection-left img {
     height: 20rem;
@@ -1143,9 +1150,11 @@
   }
   .innerFourSection .innerFourSection-right h1 {
     font-size: 1.5rem;
+    position: absolute;
+    top: 0;
   }
   .innerFourSection .innerFourSection-right p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     width: 100%;
   }
   .innerFourSection-right button {
@@ -1154,6 +1163,8 @@
   /* Section Five  */
   .innerFiveSection {
     flex-direction: column-reverse;
+    position: relative;
+    padding-top: 11%;
   }
   .innerFiveSection-right img {
     width: 22rem;
@@ -1161,9 +1172,11 @@
   }
   .innerFiveSection .innerFiveSection-left h1 {
     font-size: 1.5rem;
+    position: absolute;
+    top: 0;
   }
   .innerFiveSection .innerFiveSection-left p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     width: 100%;
   }
   .innerFiveSection-left button {
