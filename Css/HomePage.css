@@ -982,7 +982,7 @@
     overflow: hidden;
     /* padding: 0.5rem; */
     height: max-content;
-    background-color: tomato;
+    /* background-color: tomato; */
   }
   .company_image2 .imapct-text2 .card-images-bg2 {
     display: flex;
@@ -1009,7 +1009,7 @@
     justify-content: center !important;
     align-items: center;
     flex-direction: column !important;
-    background-color: violet;
+    /* background-color: violet; */
   }
   .company_image2 h1 {
     font-weight: bold;
