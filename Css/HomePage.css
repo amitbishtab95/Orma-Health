@@ -1044,6 +1044,10 @@
     margin-left: 0;
     text-align: center;
     font-size: 1rem;
+    padding-left: 1%;
+  }
+  .company_image2 .imapct-text-second-box2 {
+    padding-left: 1%;
   }
   .company_image2 .imapct-text-three2 {
     margin-left: 0;
