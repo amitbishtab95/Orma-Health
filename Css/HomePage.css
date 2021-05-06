@@ -1000,9 +1000,12 @@
     background-color: #ffecec;
     /* background-color: indigo; */
   }
+  .company_image2 div:nth-child(1) {
+    width: 20%;
+  }
   .company_image2 .imapct-text2 {
     font-family: "Poppins";
-    width: 85%;
+    width: 80%;
     text-align: center;
     margin: 0;
     display: flex;
