@@ -982,7 +982,7 @@
     overflow: hidden;
     padding: 0.5rem;
     height: max-content;
-    /* background-color: tomato; */
+    background-color: tomato;
   }
   .company_image2 .imapct-text2 .card-images-bg2 {
     display: flex;
@@ -1003,7 +1003,7 @@
   .company_image2 .imapct-text2 {
     font-family: "Poppins";
     /* margin-left: 6%; */
-    width:10rem
+    width: 85%;
 
     text-align: center;
     margin: 0;
