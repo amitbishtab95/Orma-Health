@@ -868,7 +868,7 @@
     width: 60%;
   }
   .contentArea div:nth-child(1) p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding-right: 0;
   }
   .contentArea div:nth-child(1) .contentArea-p-one {
@@ -950,7 +950,7 @@
   }
   .innerCompanies {
     width: 100%;
-    /* background-color: coral; */
+    /* background-color: coral;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1033,7 +1033,7 @@
     font-weight: 300;
     line-height: 167.5%;
     color: #484848;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     text-transform: capitalize;
     text-align: center;
   }
@@ -1128,7 +1128,7 @@
     padding: 0 2%;
   }
   .innerThirdSection-text p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     width: 80%;
   }
   .innerThirdSection-img img {
@@ -1141,7 +1141,7 @@
     padding-top: 11%;
   }
   .innerFourSection .innerFourSection-right {
-    padding-left: 5.9%;
+    padding-left: 0;
   }
   .innerFourSection-left img {
     height: 20rem;
@@ -1149,18 +1149,30 @@
   }
   .innerFourSection .innerFourSection-right {
     margin-top: 3%;
+    /* padding-left: 5.9%; */
   }
   .innerFourSection .innerFourSection-right h1 {
     font-size: 1.5rem;
     position: absolute;
     top: 0;
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+    /* transform: translateX(39%); */
   }
   .innerFourSection .innerFourSection-right p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     width: 100%;
+    padding-left: 5%;
   }
   .innerFourSection-right button {
-    width: 60%;
+    /* width: 60%; */
+    margin-right: 0;
+    margin: auto;
+    width: 38% !important;
+    height: 40px !important;
+    font-size: 0.6rem !important;
+    /* left: 5.9%; */
   }
   /* Section Five  */
   .innerFiveSection {
@@ -1170,19 +1182,29 @@
   }
   .innerFiveSection-right img {
     width: 22rem;
-    height: 18rem;
+    height: 15rem;
+  }
+  .innerFiveSection .innerFiveSection-left {
+    padding-left: 0;
   }
   .innerFiveSection .innerFiveSection-left h1 {
     font-size: 1.5rem;
     position: absolute;
     top: 0;
-  }
-  .innerFiveSection .innerFiveSection-left p {
-    font-size: 0.9rem;
+    text-align: center;
     width: 100%;
   }
+  .innerFiveSection .innerFiveSection-left p {
+    font-size: 0.8rem;
+    width: 100%;
+    padding-left: 5%;
+  }
   .innerFiveSection-left button {
-    width: 60%;
+    /* width: 60%; */
+    margin: auto;
+    width: 38% !important;
+    height: 40px !important;
+    font-size: 0.6rem !important;
   }
   /* graph carousel */
   .impact-graph-heading {
@@ -1192,7 +1214,7 @@
     font-size: 1.5rem;
   }
   .impact-graph-heading p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   .graph-carousel .item .impact-graph-img img {
     width: 100%;
