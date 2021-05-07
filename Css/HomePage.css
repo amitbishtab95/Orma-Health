@@ -915,7 +915,7 @@
   }
   .modal {
     padding-right: 0 !important;
-    /* z-index: 100000000000000 !important; */
+    z-index: 100000000000000 !important;
     /* width: 59% !important; */
     margin: auto;
     /* background-color: tomato; */
@@ -955,6 +955,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .CompanyHeading {
+    text-align: center;
+    margin-top: 2%;
   }
   .CompanyHeading h1 {
     font-size: 1.5rem;
