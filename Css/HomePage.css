@@ -964,48 +964,58 @@
     box-shadow: none;
     display: flex;
     padding: 0;
-    display: none;
+    /* display: none; */
+    /* background-color: chartreuse; */
   }
+
+  /* Mobile View  */
   /* cards2 structure */
-  .innerCompanies .companyCards2 {
+  /* .innerCompanies .companyCards2 {
     width: 95%;
     box-shadow: none;
     display: flex;
     padding: 0;
     background: #fff;
     border-radius: 15px;
-    flex-wrap: wrap;
-    /* background-color: yellow; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .topDiv,
+  .bottomDiv {
+    min-height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
   }
   .company_image2 {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     width: 50%;
-    /* width: max-content; */
     overflow: hidden;
-    /* padding: 0.5rem; */
-    height: max-content;
-    /* background-color: tomato; */
   }
-  .company_image2 .imapct-text2 .card-images-bg2 {
+  .company_image2 div:nth-child(1) {
+    width: 50%;
+    display: flex;
+    flex-direction: row !important;
+    background-color: blue;
+  }
+  .company_image2 div:nth-child(1) .mobImage {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
-    /* background-color: turquoise; */
   }
-  .company_image2 .card-images-bg2 div {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    background-color: #ffecec;
-    /* background-color: indigo; */
+  .company_image2 div:nth-child(1) .mobImage img {
+    width: 100%;
+    object-fit: contain;
   }
-  .company_image2 div:nth-child(1) {
-    /* width: 20%; */
+  .company_image2 div:nth-child(2) {
+    width: 50%;
   }
   .company_image2 .imapct-text2 {
     font-family: "Poppins";
@@ -1016,15 +1026,12 @@
     justify-content: center !important;
     align-items: center;
     flex-direction: column !important;
-    /* background-color: violet; */
   }
   .company_image2 h1 {
     font-weight: bold;
     color: #0b132a;
     display: flex;
     align-items: center;
-    /* font-size: 2rem; */
-    /* margin:0; */
   }
 
   .company_image2 .imapct-text2 p {
@@ -1039,7 +1046,6 @@
   }
   .company_image2 .imapct-text-one2 {
     margin-left: 0;
-    /* text-align: center; */
     font-size: 1rem;
     position: relative;
     padding-left: 12%;
@@ -1065,20 +1071,24 @@
     margin-left: 0;
     text-align: center;
     font-size: 1rem;
-  }
-  /* .company_image {
+  } */
+  /* Mobile View end  */
+  .company_image {
     flex-direction: column;
     align-items: center;
     width: 50%;
     margin-left: 0%;
     margin-right: 0%;
+    /* background-color: chocolate; */
+    height: max-content;
   }
   .company_image .card-images-bg {
     width: 30%;
+    margin-bottom: 4%;
   }
   .company_image .card-images-bg div {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     display: grid;
     place-items: center;
@@ -1090,38 +1100,38 @@
     display: flex;
     justify-content: center !important;
     align-items: center;
-    flex-direction: row !important;
+    flex-direction: column !important;
   }
-  .imapct-text-first-box {
+  /* .imapct-text-first-box {
     position: relative;
     left: 0;
-  }
+  } */
   .company_image .imapct-text p {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
   .company_image .imapct-text .imapct-text-one {
     margin-left: 0;
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
-  .imapct-text-first-box {
+  /* .imapct-text-first-box {
     left: 0;
-  }
+  } */
   .company_image .imapct-text .imapct-text-two {
     margin-left: 0;
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .company_image .imapct-text .imapct-text-three {
     margin-left: 0;
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .company_image .imapct-text .imapct-text-four {
     margin-left: 0;
     text-align: center;
-    font-size: 1rem;
-  } */
+    font-size: 0.9rem;
+  }
   /* third section */
   .innerThirdSection-text h1 {
     font-size: 1.5rem;
@@ -1144,8 +1154,8 @@
     padding-left: 0;
   }
   .innerFourSection-left img {
-    height: 19rem;
-    width: 19rem;
+    height: 20rem;
+    width: 20rem;
   }
   .innerFourSection .innerFourSection-right {
     margin-top: 3%;
@@ -1178,7 +1188,7 @@
   .innerFiveSection {
     flex-direction: column-reverse;
     position: relative;
-    padding-top: 11%;
+    padding-top: 9%;
   }
   .innerFiveSection-right img {
     width: 22rem;
@@ -1212,6 +1222,8 @@
   }
   .impact-graph-heading h1 {
     font-size: 1.5rem;
+    padding: 0 2% !important;
+    margin-bottom: 1rem;
   }
   .impact-graph-heading p {
     font-size: 0.8rem;
