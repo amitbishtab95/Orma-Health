@@ -882,10 +882,12 @@
   .revenue-box {
     width: 95%;
     /* background-color: chartreuse; */
+    margin-bottom: 2%;
   }
   .revenue-box .revenue-box-inner h3 {
     font-size: 1.2rem;
     text-align: center;
+    margin-top: 1.2rem;
   }
   .revenue-box-inner .revenue-input {
     display: flex;
@@ -976,11 +978,11 @@
   /* device suit section */
   .device-suit-heading {
     width: 90%;
-    margin-top: 8%;
+    /* margin-top: 8%; */
   }
   .device-suit-heading h1 {
     font-size: 1.5rem;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
   }
   .device-suit-heading p {
     font-size: 0.8rem;
@@ -990,10 +992,11 @@
   }
   .device-suit-photo {
     width: 100%;
+    margin-bottom: 2%;
   }
   /* device Feature  */
   .device-feature-heading {
-    margin-top: 8%;
+    /* margin-top: 8%; */
   }
   .device-feature-heading h1 {
     font-size: 1.5rem;
@@ -1039,11 +1042,11 @@
     margin-bottom: 0;
   }
   .on-boarding-heading {
-    margin-top: 8%;
+    /* margin-top: 8%; */
   }
   .on-boarding-heading h1 {
     font-size: 1.5rem;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
   }
   .onBoardingCards {
     width: 90%;
@@ -1058,7 +1061,7 @@
 
   /* graph-section */
   .impact-graph-heading {
-    margin-top: 10%;
+    /* margin-top: 10%; */
   }
   .impact-graph-heading h1 {
     font-size: 1.5rem;
