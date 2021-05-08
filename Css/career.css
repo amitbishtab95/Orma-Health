@@ -45,8 +45,8 @@ body {
   font-weight: 300;
   line-height: 167.5%;
   color: #484848;
-  margin-bottom: 1.2rem;
   text-transform: capitalize;
+  margin-bottom: 1.2rem;
 }
 /* .careerSection-content {
   width: 90%;
@@ -239,6 +239,7 @@ body {
     font-size: 0.8rem;
     width: 95%;
     margin: auto;
+    margin-bottom: 2rem;
     /* padding: 10px; */
   }
   /* .careerSection-content-heading {
