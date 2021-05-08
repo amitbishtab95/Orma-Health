@@ -551,13 +551,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  /* background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%); */
+  background: linear-gradient(183.41deg, #1b2050 -8.57%, #212758 82.96%);
+
   position: relative;
 }
 .footerDots {
   position: absolute;
   left: 0;
   bottom: 20%;
+  display: none;
 }
 .innerFooter {
   width: 85%;
@@ -587,7 +590,7 @@
   font-size: 1.2rem;
   font-family: "Poppins";
   font-weight: 400;
-  color: #5a98f2;
+  color: #1b2050;
 }
 .footerHeading h2 {
   font-family: "Poppins";
@@ -1242,11 +1245,11 @@
     margin-top: 4%;
   }
   .footerHeading h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .footerInfo p,
   .copyrights p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .footerCompany {
     display: none;
