@@ -190,6 +190,7 @@ form .form-row div:nth-child(2) {
   }
   .affiliateLandingPageBtn button {
     width: 30%;
+    margin-bottom: 0;
   }
   .earningHeading {
     width: 100%;
