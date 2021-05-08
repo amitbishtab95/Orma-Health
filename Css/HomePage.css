@@ -652,7 +652,7 @@
 
   .mainLanding {
     justify-content: flex-start;
-    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
   }
   .innerLanding {
     flex-direction: column;
@@ -860,7 +860,7 @@
   }
   .mainLanding {
     justify-content: flex-start;
-    margin-bottom: 10%;
+    /* margin-bottom: 5%; */
   }
   .innerLanding {
     flex-direction: column-reverse;
