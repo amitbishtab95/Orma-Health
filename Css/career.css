@@ -13,6 +13,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 5%;
+  padding-top: 2%;
   /* padding-bottom: 4%; */
   /* background-color: hotpink; */
 }
@@ -24,8 +26,8 @@ body {
   flex-direction: column;
 }
 .careerSection-heading {
-  margin-top: 4%;
-  margin-bottom: 3%;
+  /* margin-top: 4%;
+  margin-bottom: 3%; */
   text-align: center;
   width: 70%;
 }
@@ -35,7 +37,7 @@ body {
   font-weight: 600;
   line-height: 130%;
   color: #1b2050;
-  margin-bottom: 2%;
+  margin-bottom: 1.2rem;
 }
 .careerSection-heading p {
   font-family: "Poppins";
@@ -43,7 +45,7 @@ body {
   font-weight: 300;
   line-height: 167.5%;
   color: #484848;
-  margin-bottom: 5%;
+  margin-bottom: 1.2rem;
   text-transform: capitalize;
 }
 /* .careerSection-content {

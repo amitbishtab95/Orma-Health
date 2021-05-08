@@ -13,13 +13,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 7%;
+  /* margin-bottom: 7%; */
+  padding-bottom: 5%;
+  /* padding-top: 5%; */
+  /* background-color: chartreuse; */
 }
 .innerLandingPage {
   width: 100%;
   display: flex;
   justify-content: space-between;
   padding-left: 4%;
+  /* background-color: blue; */
 }
 .landingPageContent {
   width: 50%;
@@ -29,15 +33,15 @@
 .landingPageHeading h1 {
   font-family: "Poppins";
   font-weight: 600;
-  margin-bottom: 4%;
   color: #1b2050;
   font-size: 2rem;
   line-height: 130%;
+  margin-bottom: 1.2rem;
 }
 .landingPageHeading p {
   font-family: "Poppins";
   font-weight: 300;
-  margin-bottom: 5%;
+  margin-bottom: 1.2rem;
   color: #484848;
 }
 .landingPageBtn button {
@@ -117,12 +121,13 @@
   background-color: #fafafa;
   font-family: "Poppins";
   align-items: center;
-  margin-top: 3%;
+  /* margin-top: 3%; */
   /* background: red; */
+  padding: 5% 0;
 }
 .innerRevenueSection {
   width: 100%;
-  padding-bottom: 5%;
+  /* padding-bottom: 5%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -130,8 +135,8 @@
   /* background-color: green; */
 }
 .innerRevenueSection .revenue-heading {
-  margin-top: 4%;
-  margin-bottom: 3%;
+  /* margin-top: 4%;
+  margin-bottom: 3%; */
 }
 .innerRevenueSection .revenue-heading h1 {
   text-align: center;
@@ -141,6 +146,7 @@
   line-height: 130%;
   text-align: center;
   color: #1b2050;
+  margin-bottom: 1.2rem;
 }
 .innerRevenueSection .revenue-heading p {
   font-family: "Poppins";
@@ -149,6 +155,7 @@
   line-height: 130%;
   text-align: center;
   color: #1b2050;
+  margin-bottom: 1.5rem;
 }
 .revenue-box {
   background: #ffffff;
@@ -245,11 +252,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 3%;
+  padding-bottom: 2.2%;
+  padding-top: 5%;
 }
 .benefit-heading-div {
-  margin-top: 6%;
-  margin-bottom: 5%;
+  /* margin-top: 6%;
+  margin-bottom: 5%; */
 }
 .benefit-heading-div h1 {
   font-family: "Poppins";
@@ -258,6 +266,7 @@
   line-height: 130%;
   text-align: center;
   color: #1b2050;
+  margin-bottom: 1.2rem;
 }
 .inner-benefit-section {
   width: 100%;
@@ -334,7 +343,8 @@
   align-items: center;
   flex-direction: column;
   background-color: #e5e5e5;
-  padding-bottom: 7%;
+  padding-bottom: 5%;
+  padding-top: 5%;
 }
 .inner-device-suit {
   width: 100%;
@@ -347,7 +357,7 @@
   width: 60%;
   margin: auto;
   text-align: center;
-  margin-top: 8%;
+  /* margin-top: 8%; */
 }
 .device-suit-heading h1 {
   font-family: "Poppins";
@@ -356,6 +366,7 @@
   line-height: 130%;
   text-align: center;
   color: #1b2050;
+  margin-bottom: 1.2rem;
 }
 .device-suit-heading p {
   font-family: "Poppins";
@@ -363,7 +374,7 @@
   font-weight: 300;
   line-height: 167.5%;
   color: #1b2050;
-  margin-bottom: 5%;
+  margin-bottom: 1.2rem;
 }
 .device-suit-photo {
   width: 70%;
@@ -412,6 +423,7 @@
   justify-content: center;
   align-items: center;
   background: #f4f9ff;
+  padding: 5% 0;
 }
 .device-featurs-inner {
   width: 90%;
@@ -422,7 +434,7 @@
   /* background-color: magenta; */
 }
 .device-feature-heading {
-  margin: 9% 0 1% 0;
+  /* margin: 9% 0 1% 0; */
 }
 .device-feature-heading h1 {
   font-family: "Poppins";
@@ -431,6 +443,7 @@
   line-height: 130%;
   text-align: center;
   color: #1b2050;
+  margin-bottom: 1.2rem;
 }
 .device-features-grid {
   width: 100%;
@@ -438,7 +451,7 @@
   justify-content: center;
   /* align-items: center; */
   flex-direction: column;
-  padding: 1% 5% 5% 5%;
+  padding: 0% 5% 0% 5%;
   /* background-color: mediumaquamarine; */
 }
 .device-features-grid-top,
@@ -491,7 +504,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5%;
+  /* margin-bottom: 5%; */
+  padding: 5% 0;
   /* background-color: hotpink; */
   /* background-color: lightcoral; */
 }
@@ -504,8 +518,8 @@
   /* background-color: lightseagreen; */
 }
 .on-boarding-heading {
-  margin-top: 8%;
-  margin-bottom: 3%;
+  /* margin-top: 8%;
+  margin-bottom: 3%; */
 }
 .on-boarding-heading h1 {
   font-family: "Poppins";
@@ -514,6 +528,7 @@
   text-align: center;
   line-height: 130%;
   color: #1b2050;
+  margin-bottom: 1.2rem;
 }
 .on-boarding-step-div {
   width: 100%;

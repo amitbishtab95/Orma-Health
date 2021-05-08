@@ -7,7 +7,9 @@
 
 /* affiliateLanding page */
 .affiliateLandingPage {
-  margin-top: 5%;
+  /* margin-top: 5%; */
+  padding-top: 2%;
+  padding-bottom: 5%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -20,12 +22,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 6%;
+  padding-left: 5%;
   /* background-color: lightgrey; */
 }
 .affiliateLandingPage-content {
   width: 50%;
-  padding-left: 2%;
+  /* padding-left: 2%; */
 }
 .affiliateLandingPage-heading h1 {
   font-family: "Poppins";
@@ -33,7 +35,7 @@
   font-weight: 600;
   line-height: 130%;
   color: #1b2050;
-  margin-bottom: 4%;
+  margin-bottom: 1.2rem;
 }
 .affiliateLandingPage-heading p {
   font-family: "Poppins";
@@ -41,7 +43,7 @@
   font-weight: 300;
   line-height: 167.5%;
   color: #484848;
-  margin-bottom: 5%;
+  margin-bottom: 1.2rem;
 }
 .affiliateLandingPageBtn button {
   width: 40%;
@@ -71,6 +73,8 @@
   align-items: center;
   background-color: linear-gradient(90deg, #fdfbfb 0%, #ebedee 100%) !important;
   background: linear-gradient(90deg, #fdfbfb 0%, #ebedee 100%);
+
+  padding: 5% 0;
 }
 .innerEarningSection {
   width: 100%;
@@ -78,15 +82,15 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 3%;
+  /* margin-bottom: 3%; */
   /* background-color: #cf2626; */
 }
 .earningHeading {
   width: 50%;
   margin: auto;
-  margin-top: 4%;
+  /* margin-top: 4%; */
   text-align: center;
-  margin-bottom: 4%;
+  /* margin-bottom: 4%; */
 }
 .earningHeading h1 {
   font-family: "Poppins";
@@ -95,7 +99,7 @@
   line-height: 130%;
   text-align: center;
   color: #1b2050;
-  margin-bottom: 2%;
+  margin-bottom: 1.2rem;
 }
 .earningHeading p {
   font-family: "Poppins";
@@ -104,12 +108,13 @@
   line-height: 130%;
   text-align: center;
   color: #1b2050;
-  margin-bottom: 3%;
+  margin-bottom: 1.2rem;
 }
 .earningForm-part {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-top: 3%;
 }
 
 .form-box {

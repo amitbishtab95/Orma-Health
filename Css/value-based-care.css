@@ -13,7 +13,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 6%;
+  /* margin-bottom: 6%; */
+  padding-top: 2%;
+  padding-bottom: 5%;
   /* background-color: lightcoral; */
 }
 
@@ -35,7 +37,7 @@
   font-weight: 600;
   line-height: 130%;
   color: #1b2050;
-  margin-bottom: 4%;
+  margin-bottom: 1.2rem;
 }
 .valueLandingPage-heading p {
   font-family: Poppins;
@@ -44,7 +46,7 @@
   line-height: 167.5%;
   text-align: justify;
   color: #484848;
-  margin-bottom: 5%;
+  margin-bottom: 1.2rem;
 }
 .valueLandingPageBtn .btn-1 {
   width: 40%;
@@ -82,6 +84,7 @@
   justify-content: center;
   align-items: center;
   background: linear-gradient(90deg, #fdfbfb 0%, #ebedee 100%);
+  padding: 5% 0;
 }
 .innerOurPartner {
   width: 100%;
@@ -89,12 +92,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 3%;
-  padding-bottom: 5%;
+  /* margin-bottom: 3%;
+  padding-bottom: 5%; */
 }
 .ourPartner-heading {
-  margin-top: 5%;
-  margin-bottom: 4%;
+  /* margin-top: 5%;
+  margin-bottom: 4%; */
 }
 .ourPartner-heading h1 {
   font-family: Poppins;
@@ -103,6 +106,7 @@
   line-height: 130%;
   text-align: center;
   color: #1b2050;
+  margin-bottom: 1.2rem;
 }
 
 .ourPartner-icon {
@@ -146,7 +150,8 @@
   justify-content: center;
   align-items: center;
   background: linear-gradient(180deg, #fdfbfb 0%, #eceeef 99.99%, #ebedee 100%);
-  padding-bottom: 3%;
+  padding-bottom: 5%;
+  padding-top: 5%;
 }
 .inner-infoGraph {
   width: 100%;
@@ -157,8 +162,8 @@
   /* background-color: hotpink !important; */
 }
 .infoGraph-heading {
-  margin-top: 5%;
-  margin-bottom: 3%;
+  /* margin-top: 5%;
+  margin-bottom: 3%; */
   /* background-color: indianred; */
 }
 .infoGraph-heading h1 {
@@ -167,7 +172,7 @@
   font-weight: 600;
   line-height: 130%;
   color: #1b2050;
-  margin-bottom: 4%;
+  margin-bottom: 1.5rem;
 }
 .infoGraph-content {
   display: flex;
@@ -186,8 +191,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 6%;
-  margin-bottom: 10%;
+  /* margin-top: 6%;
+  margin-bottom: 10%; */
+  padding-top: 5%;
+  padding-bottom: 3%;
 }
 .innerPartnerWithUs {
   width: 92%;
@@ -235,7 +242,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5%;
+  /* margin-bottom: 5%; */
   font-family: "Poppins";
   font-weight: 600;
   text-transform: capitalize;
@@ -247,6 +254,7 @@
   line-height: 130%;
   text-transform: uppercase;
   color: #1b2050;
+  margin-bottom: 1.2rem;
 }
 .partnerCard {
   width: 100%;
@@ -277,7 +285,7 @@
   font-weight: 600;
   line-height: 130%;
   color: #1b2050;
-  margin-bottom: 4%;
+  margin-bottom: 1.2rem;
 }
 .partnerText p {
   font-family: "Poppins";
@@ -285,11 +293,12 @@
   font-weight: 300;
   line-height: 167.5%;
   color: #484848;
-  margin-bottom: 5%;
+  /* margin-bottom: 5%; */
+  margin-bottom: 1.2rem;
   width: 80%;
 }
 .partnerText ul {
-  margin: 2rem 0;
+  margin: 1.2rem 0;
 }
 .partnerText ul li {
   font-family: "Poppins";
