@@ -830,7 +830,7 @@
   /* landing page css */
   .innerLandingPage {
     flex-direction: column-reverse;
-    margin-top: 0%;
+    /* margin-top: 0%; */
   }
   .landingPageImage {
     display: none;
@@ -860,20 +860,24 @@
 
   /* revenue section css*/
   .innerRevenueSection {
-    padding-bottom: 8%;
+    /* padding-bottom: 8%; */
+    /* changed at 8 */
   }
   .innerRevenueSection .revenue-heading {
-    margin-top: 8%;
+    /* margin-top: 8%; */
+    /* changed at 8 */
   }
   .innerRevenueSection .revenue-heading h1 {
     font-size: 1.5rem;
     padding: 0 2%;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
+    /* changed at 8 */
   }
   .innerRevenueSection .revenue-heading p {
     font-size: 0.8rem;
     padding: 0 5%;
-    margin-top: 4%;
+    /* margin-top: 4%; */
+    /* changed at 8 */
   }
   .revenue-box {
     width: 95%;
@@ -895,7 +899,8 @@
   }
   .revenue-box-inner .revenue-input button {
     width: 50%;
-    margin-top: 4%;
+    /* margin-top: 4%; */
+    /* changed at 8 */
   }
   .total-revenue h4,
   .total-revenue p {
@@ -916,7 +921,8 @@
 
   /* benefit section */
   .benefit-heading-div {
-    margin-top: 8%;
+    /* margin-top: 8%; */
+    /* changed at 8 */
   }
   .benefit-heading-div h1 {
     font-size: 1.5rem;

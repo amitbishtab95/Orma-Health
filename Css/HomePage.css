@@ -1152,7 +1152,7 @@
   .innerThirdSection-text h1 {
     font-size: 1.5rem;
     padding: 0 2%;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
   }
   .innerThirdSection-text p {
     font-size: 0.8rem;
