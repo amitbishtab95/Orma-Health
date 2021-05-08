@@ -468,7 +468,7 @@
     font-size: 1.5rem;
   }
   .valueLandingPage-heading p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .valueLandingPageBtn {
     display: flex;
@@ -480,10 +480,16 @@
   .valueLandingPageBtn .btn-1 {
     margin: 0;
     margin-bottom: 3%;
+    display: none;
   }
   .valueLandingPageBtn .btn-1,
   .valueLandingPageBtn .btn-2 {
-    width: 58%;
+    /* width: 58%; */
+  }
+  .valueLandingPageBtn .btn-2 {
+    width: 38% !important;
+    height: 40px !important;
+    font-size: 0.6rem !important;
   }
   .valueLandingPageImage {
     display: flex;
@@ -506,7 +512,7 @@
     /* background-color: greenyellow; */
   }
   .ourPartner-icon-cards h6 {
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     text-align: center;
   }
 
@@ -561,7 +567,7 @@
     width: 85%;
   }
   .partnerText p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .partnerText h4 {
     font-size: 1.3rem;

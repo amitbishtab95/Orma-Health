@@ -282,14 +282,17 @@ form .form-row div:nth-child(2) {
     font-size: 1.5rem;
   }
   .affiliateLandingPage-heading p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .affiliateLandingPageBtn {
     display: flex;
     justify-content: center;
   }
   .affiliateLandingPageBtn button {
-    width: 50%;
+    /* width: 50%; */
+    width: 38% !important;
+    height: 40px !important;
+    font-size: 0.6rem !important;
   }
   .earningHeading {
     width: 100%;
@@ -299,7 +302,7 @@ form .form-row div:nth-child(2) {
   }
   .earningHeading p {
     padding: 0 10%;
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 120%;
   }
   .form-box-inner h2 {

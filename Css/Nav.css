@@ -6,7 +6,7 @@
   box-sizing: border-box;
   font-family: "Poppins";
 }
-.page-wrapper.stick {
+.page-wrapper .stick {
   position: sticky;
   top: 0;
   background-color: #fff;
@@ -63,6 +63,7 @@
   place-items: center;
   mix-blend-mode: multiply;
   margin-top: 1%;
+  margin-left: 1.8%;
 }
 .navbar .logo a {
   font-size: 1.8rem;
@@ -274,10 +275,21 @@
   }
   .mobile-nav {
     transform: translate(0%) !important;
+
+    /* position: sticky; */
   }
 
   /* logo */
   .navbar .logo {
     width: 43%;
+    margin-left: -5%;
+    /* padding-left: 4%; */
+  }
+}
+
+@media (max-width: 450px) {
+  .navbar .logo {
+    width: 43%;
+    margin-left: 4%;
   }
 }

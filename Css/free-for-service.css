@@ -463,6 +463,9 @@
   line-height: 30px;
   color: #333333;
 }
+.device-features-grid-content h5 li {
+  list-style: none;
+}
 .device-features-grid-middle::before,
 .device-features-grid-middle::after {
   content: "";
@@ -984,7 +987,8 @@
   .device-features-grid-content {
     margin: 2% 0;
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
+    text-align: left;
     /* background-color: tomato; */
   }
   .device-features-grid-middle::before,
@@ -1005,6 +1009,9 @@
     /* font-size: 1.5rem; */
     line-height: 30px;
     color: #0b132a;
+  }
+  .device-features-grid-content h5 li {
+    list-style: disc;
   }
   /* on-boarding section */
   .on-boarding-section {
