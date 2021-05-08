@@ -754,7 +754,7 @@
     width: 25rem;
   }
   .innerFourSection .innerFourSection-right {
-    margin-top: 3%;
+    /* margin-top: 3%; */
   }
   .innerFourSection .innerFourSection-right h1 {
     font-size: 1.8rem;
@@ -974,6 +974,7 @@
   }
   .CompanyHeading h1 {
     font-size: 1.5rem;
+    /* margin-bottom: 1.2rem; */
   }
   .innerCompanies .companyCards {
     width: 95%;
@@ -1203,7 +1204,8 @@
   .innerFiveSection {
     flex-direction: column-reverse;
     position: relative;
-    padding-top: 9%;
+    /* padding-top: 9%; */
+    padding-top: 11%;
   }
   .innerFiveSection-right img {
     width: 22rem;
@@ -1233,12 +1235,12 @@
   }
   /* graph carousel */
   .impact-graph-heading {
-    margin-top: 8%;
+    /* margin-top: 8%; */
   }
   .impact-graph-heading h1 {
     font-size: 1.5rem;
     padding: 0 2% !important;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
   }
   .impact-graph-heading p {
     font-size: 0.8rem;
