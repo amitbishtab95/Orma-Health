@@ -246,6 +246,14 @@ html {
 
 /* Responsive Mobile View */
 @media (max-width: 450px) {
+  .aboutSection {
+    justify-content: flex-start;
+  }
+  .innerAboutSection {
+    /* padding: 0; */
+    width: 95%;
+    margin-left: 2%;
+  }
   .aboutSection-heading h1 {
     font-size: 1.5rem;
     text-align: center;

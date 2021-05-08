@@ -569,6 +569,9 @@
   .partnerText p {
     font-size: 0.8rem;
   }
+  .partnerText ul li {
+    font-size: 0.8rem;
+  }
   .partnerText h4 {
     font-size: 1.3rem;
   }

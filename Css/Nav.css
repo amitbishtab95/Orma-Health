@@ -6,11 +6,13 @@
   box-sizing: border-box;
   font-family: "Poppins";
 }
-.page-wrapper .stick {
+.page-wrapper.stick {
   position: sticky;
   top: 0;
   background-color: #fff;
   z-index: 999;
+  /* display: none; */
+  /* background-color: blue; */
 }
 /* .logo.logoMargin {
   margin-left: 3%;
@@ -24,6 +26,7 @@
   align-items: center;
   margin-bottom: 3%;
   position: relative;
+  /* position: sticky; */
 }
 
 .nav-wrapper {
@@ -275,8 +278,6 @@
   }
   .mobile-nav {
     transform: translate(0%) !important;
-
-    /* position: sticky; */
   }
 
   /* logo */
