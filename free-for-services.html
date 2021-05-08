@@ -31,7 +31,7 @@
 </head>
 
 <body>
-    <div class="page-wrapper">
+    <div class="page-wrapper" id="page-wrapper-id">
         <div class="nav-wrapper">
             <nav class="navbar">
                 <div class="logo">
@@ -432,6 +432,8 @@
 
             var mm = document.getElementById("mobile-menu");
             mm.classList.toggle("is-active");
+            var s = document.getElementById("page-wrapper-id");
+            s.classList.toggle("stick");
         }
     </script>
 
