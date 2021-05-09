@@ -608,7 +608,7 @@
 }
 .footerInfo p {
   font-family: "Poppins";
-  font-weight: 200;
+  font-weight: 300;
   color: #fff;
 }
 .copyrights {
@@ -1257,11 +1257,11 @@
     /* margin-top: 4%; */
   }
   .footerHeading h2 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   .footerInfo p,
   .copyrights p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   .footerCompany {
     display: none;
