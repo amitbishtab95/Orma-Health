@@ -513,16 +513,31 @@
     font-size: 1.5rem;
   }
   .ourPartner-icon {
-    flex-direction: column;
+    /* flex-direction: column; */
+    padding: 0;
+    width: 100%;
   }
   .ourPartner-icon-cards {
-    width: 100%;
+    width: 50%;
     margin-bottom: 3%;
     /* background-color: greenyellow; */
+  }
+  .ourPartner-icon-cards div:nth-child(1) {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background-color: #ffecec;
+  }
+  .ourPartner-icon-cards div:nth-child(1) img {
+    height: 40px;
+    /* width: ; */
   }
   .ourPartner-icon-cards h6 {
     font-size: 0.8rem;
     text-align: center;
+    width: 80%;
   }
 
   /* info graphi section */
