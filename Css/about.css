@@ -111,6 +111,20 @@ html {
   margin-right: 1rem;
   margin-bottom: 2%;
 }
+.linkedin-icon {
+  position: absolute;
+  /* bottom: 0; */
+  left: 3%;
+  top: 2%;
+  color: white;
+}
+.linkedin-icon a {
+  text-decoration: none;
+}
+.linkedin-icon a i {
+  color: #ffffff;
+  /* color: #0077b5; */
+}
 .photoSectionPart-text {
   position: absolute;
   bottom: 0;
