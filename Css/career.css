@@ -274,7 +274,7 @@ body {
   }
   .footerInfo p,
   .copyrights p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .footerCompany {
     display: none;
