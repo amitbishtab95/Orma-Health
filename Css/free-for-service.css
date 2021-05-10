@@ -26,15 +26,15 @@
   /* background-color: blue; */
 }
 .landingPageContent {
-  width: 50%;
-  padding-left: 3%;
+  width: 55%;
+  padding-left: 1.5%;
   padding-top: 3%;
 }
 .landingPageHeading h1 {
   font-family: "Poppins";
   font-weight: 600;
   color: #1b2050;
-  font-size: 2rem;
+  /* font-size: 2rem; */
   line-height: 130%;
   margin-bottom: 1.2rem;
 }
@@ -43,6 +43,7 @@
   font-weight: 300;
   margin-bottom: 1.2rem;
   color: #484848;
+  /* padding-right: 6%; */
 }
 .landingPageBtn button {
   width: 40%;
@@ -60,7 +61,7 @@
 .landingPageImage {
   display: flex;
   flex-direction: column;
-  padding-top: 4%;
+  padding-top: 3%;
   padding-right: 2%;
 }
 .landingPageImage div:nth-child(1),

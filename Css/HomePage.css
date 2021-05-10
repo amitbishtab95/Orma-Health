@@ -347,7 +347,7 @@
 }
 .innerFourSection .innerFourSection-right h1 {
   text-align: left;
-  font-size: 3rem;
+  /* font-size: 3rem; */
   color: #1b2050;
   font-family: "Poppins";
   font-style: normal;
@@ -407,7 +407,7 @@
 .innerFiveSection .innerFiveSection-left h1 {
   margin-bottom: 1.2rem;
   text-align: left;
-  font-size: 3rem;
+  /* font-size: 3rem; */
   color: #1b2050;
   font-family: "Poppins";
   font-style: normal;
