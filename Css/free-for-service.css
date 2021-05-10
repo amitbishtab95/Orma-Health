@@ -214,7 +214,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 2% 0 2% 0;
+  margin: 0.8% 0 0.8% 0;
 }
 .total-revenue h4,
 .total-revenue p {
@@ -235,7 +235,7 @@
   align-items: flex-start;
   font-family: "Poppins";
   color: #1b2050;
-  margin: 2% 0 2% 4%;
+  margin: 0.8% 0 0.8% 4%;
 }
 .revenue-points .revenue-points-div h6,
 .revenue-points .revenue-points-div p {
