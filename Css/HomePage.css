@@ -467,7 +467,8 @@
   background-color: #fff;
 }
 .impact-graph-heading {
-  text-align: center;
+  /* text-align: center; */
+  width: 100%;
 }
 .impact-graph-heading h1 {
   font-family: "Poppins";
@@ -477,6 +478,7 @@
   text-align: center;
   color: #1b2050;
   margin-bottom: 1.2rem !important;
+  text-align: center;
 }
 
 .impact-graph-heading .p1 {
