@@ -138,7 +138,7 @@
   width: 100%;
 }
 .modal-content {
-  position: relative;
+  /* position: relative; */
 }
 
 /* main companies */
@@ -149,7 +149,7 @@
   align-items: center;
   position: relative;
   /* margin-bottom: 8%; */
-  padding-top: 7.5%;
+  padding-top: 10%;
   padding-bottom: 5%;
 }
 .mainCompanies .Vector101 {
@@ -291,9 +291,9 @@
   /* margin-top: 7%; */
 }
 .innerThirdSection-text h1 {
-  font-size: 2rem;
+  /* font-size: 2rem; */
   color: #1b2050;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;

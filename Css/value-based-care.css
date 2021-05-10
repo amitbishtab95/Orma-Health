@@ -252,7 +252,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: 130%;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #1b2050;
   margin-bottom: 1.2rem;
 }
