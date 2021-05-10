@@ -37,7 +37,8 @@ body {
 .innerFaqHeading p {
   font-family: "Poppins";
   text-transform: uppercase;
-  color: #444760;
+  /* color: #444760; */
+  color: #484848;
   font-weight: 300;
   margin-bottom: 1.2rem;
 }
