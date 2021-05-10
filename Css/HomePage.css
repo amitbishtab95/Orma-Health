@@ -964,6 +964,9 @@
   }
 
   /* main companies */
+  .mainCompanies {
+    padding-top: 8%;
+  }
   .mainCompanies .Vector101 {
     display: none;
   }
