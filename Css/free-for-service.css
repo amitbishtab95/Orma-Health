@@ -448,9 +448,10 @@
 }
 .device-features-grid {
   width: 100%;
+  /* width: 80%; */
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   flex-direction: column;
   padding: 0% 5% 0% 5%;
   /* background-color: mediumaquamarine; */
@@ -463,6 +464,7 @@
   align-items: center;
   flex-wrap: wrap;
   position: relative;
+  width: 80%;
   /* background-color: mediumpurple; */
 }
 .device-features-grid-content {
@@ -731,6 +733,14 @@
     display: none;
   }
   /* device Feature  */
+  .device-features-grid {
+    align-items: unset;
+  }
+  .device-features-grid-top,
+  .device-features-grid-middle,
+  .device-features-grid-bottom {
+    width: 100%;
+  }
   .device-feature-heading h1 {
     font-size: 1.8rem;
   }
