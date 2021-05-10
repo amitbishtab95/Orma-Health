@@ -75,7 +75,8 @@
   line-height: 167.5%;
   color: #484848;
   margin-bottom: 5%;
-  padding-right: 7%;
+  padding-right: 8%;
+  /* text-align: justify; */
 }
 .contentArea div:nth-child(1) .contentArea-p-two {
   display: none;
@@ -149,7 +150,7 @@
   align-items: center;
   position: relative;
   /* margin-bottom: 8%; */
-  padding-top: 10%;
+  padding-top: 11%;
   padding-bottom: 5%;
 }
 .mainCompanies .Vector101 {
