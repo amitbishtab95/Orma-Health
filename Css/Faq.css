@@ -36,10 +36,12 @@ body {
 }
 .innerFaqHeading p {
   font-family: "Poppins";
-  text-transform: uppercase;
+  text-transform: capitalize;
   /* color: #444760; */
   color: #484848;
   font-weight: 300;
+  font-style: normal;
+  line-height: 167.5%;
   margin-bottom: 1.2rem;
 }
 

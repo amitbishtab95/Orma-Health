@@ -17,7 +17,7 @@ html {
   justify-content: center;
   align-items: center;
   padding-top: 2%;
-  padding-bottom: 5%;
+  padding-bottom: 4%;
   /* background-color: hotpink; */
 }
 .innerAboutSection {
@@ -62,8 +62,9 @@ html {
   justify-content: center;
   align-items: center;
   /* padding: 5% 0; */
-  padding-bottom: 5%;
-  /* background-color: hotpink; */
+  padding-bottom: 4%;
+  padding-top: 4%;
+  background-color: #f6faff;
 }
 .innerAboutPhotoSection {
   width: 90%;
@@ -78,6 +79,7 @@ html {
 }
 .photoSectionHeading {
   /* margin: 2% 0 3% 0; */
+  /* background-color: brown; */
 }
 .photoSectionHeading h1 {
   font-family: "Poppins";
@@ -89,9 +91,9 @@ html {
   /* background-color: lightblue; */
 }
 .photoSectionPart {
-  width: 90%;
+  width: 95%;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between;s */
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
@@ -99,24 +101,37 @@ html {
 }
 .photoSectionPart-top {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 2%;
+  margin-bottom: 0%;
+  /* background-color: blue; */
 }
 .photoSectionPart-topInner,
 .photoSectionPart-bottomInner {
   width: 28%;
   position: relative;
-  margin-right: 1rem;
-  margin-bottom: 2%;
+  /* margin-right: 1rem; */
+  margin: 2rem;
+  /* margin-bottom: 2%; */
+  margin-top: 0;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* flex-direction: column; */
+  /* background-color: crimson; */
+  height: max-content;
+}
+.photoSectionPart-bottomInner {
+  margin-bottom: 0;
 }
 .linkedin-icon {
-  position: absolute;
+  /* position: absolute; */
   /* bottom: 0; */
-  left: 3%;
-  top: 2%;
-  color: white;
+  /* left: 3%; */
+  /* top: 2%; */
+  /* color: white; */
+  color: #0e76a8;
 }
 .linkedin-icon a {
   text-decoration: none;
@@ -126,16 +141,19 @@ html {
   /* color: #0077b5; */
 }
 .photoSectionPart-text {
-  position: absolute;
-  bottom: 0;
-  left: 3%;
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* left: 3%; */
+  text-align: center;
+  /* background-color: cyan; */
 }
 .photoSectionPart-text h6 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   line-height: 130%;
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: #484848;
 }
 .photoSectionPart-text h6::after {
   content: "";
@@ -143,6 +161,7 @@ html {
   height: 2px;
   display: block;
   background-color: #2fab73;
+  margin: auto;
   margin-top: 10px;
 }
 .photoSectionPart-text > p {
@@ -150,7 +169,8 @@ html {
   font-style: normal;
   font-weight: normal;
   line-height: 130%;
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: #484848;
   /* font-size: 4rem; */
 }
 
@@ -176,9 +196,9 @@ html {
     font-size: 1.8rem;
   }
   .photoSectionPart-text {
-    position: absolute;
-    bottom: 0;
-    left: 3%;
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* left: 3%; */
     /* background-color: lawngreen; */
   }
 
@@ -196,10 +216,16 @@ html {
   .photoSectionPart-text > p {
     font-size: 0.9rem;
   }
-  .photoSectionPart-bottomInner,
+
   .photoSectionPart-topInner {
-    margin-right: 3%;
-    width: 35%;
+    /* margin-right: 3%; */
+    width: 40%;
+    margin: 2rem;
+    margin-top: 0;
+    /* height: 10%; */
+  }
+  .photoSectionPart-bottomInner {
+    margin-bottom: 0;
   }
   .photoSectionPart-topInner img,
   .photoSectionPart-bottomInner img {
@@ -285,6 +311,7 @@ html {
     font-size: 0.8rem;
   }
   .innerAboutPhotoSection {
+    width: 100%;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -297,21 +324,22 @@ html {
     width: 100%;
   }
   .photoSectionPart-top {
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center !important;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
   }
   .photoSectionPart-text {
-    position: absolute;
-    bottom: 0;
-    left: 3%;
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* left: 3%; */
   }
   .photoSectionPart-text > h6 {
     font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .photoSectionPart-text h6::after {
     content: "";
@@ -326,8 +354,14 @@ html {
   }
   .photoSectionPart-topInner,
   .photoSectionPart-bottomInner {
-    width: 55%;
-    margin-right: 0;
+    width: 50%;
+    margin: 0;
+    margin-bottom: 2rem;
+    /* height: 8rem; */
+    /* margin-right: 0; */
+  }
+  .photoSectionPart-bottomInner {
+    margin-bottom: 0;
   }
   .photoSectionPart-topInner img,
   .photoSectionPart-bottomInner img {

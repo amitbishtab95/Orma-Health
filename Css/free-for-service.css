@@ -26,7 +26,7 @@
   /* background-color: blue; */
 }
 .landingPageContent {
-  width: 55%;
+  width: 42%;
   padding-left: 1.5%;
   padding-top: 3%;
 }
@@ -43,7 +43,7 @@
   font-weight: 300;
   margin-bottom: 1.2rem;
   color: #484848;
-  /* padding-right: 6%; */
+  /* padding-right: 7%; */
 }
 .landingPageBtn button {
   width: 40%;
@@ -235,7 +235,7 @@
   align-items: flex-start;
   font-family: "Poppins";
   color: #1b2050;
-  margin: 0.8% 0 0.8% 4%;
+  margin: 0.8% 0 0.8% 2.5%;
 }
 .revenue-points .revenue-points-div h6,
 .revenue-points .revenue-points-div p {
@@ -328,6 +328,7 @@
   font-size: 1.5rem;
   line-height: 30px;
   color: #0b132a;
+  margin-bottom: 1.2rem;
 }
 .benefitCardsSection .benefit-text p {
   font-family: "Poppins";

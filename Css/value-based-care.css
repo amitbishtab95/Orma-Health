@@ -60,7 +60,7 @@
   font-size: 0.9rem;
   border-radius: 15px;
   cursor: pointer;
-  margin-left: 2%;
+  /* margin-left: 2%; */
   margin-right: 5%;
 }
 .valueLandingPageBtn .btn-2 {
@@ -268,11 +268,21 @@
   width: 50%;
   padding: 1.5rem;
 }
+.partnerText {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+  /* text-align: center; */
+}
+.mainPartnersCards .partnerCard:nth-child(2) .partnerText {
+  /* text-align: right; */
+}
 .partnerImage {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 .partnerImage img {
   width: 65%;
@@ -295,7 +305,7 @@
   color: #484848;
   /* margin-bottom: 5%; */
   margin-bottom: 1.2rem;
-  width: 80%;
+  /* width: 80%; */
 }
 .partnerText ul {
   margin: 1.2rem 0;
@@ -585,6 +595,7 @@
     padding: 1.5rem;
   }
   .partnerText {
+    padding: 1rem;
     padding-bottom: 0;
   }
   .partnerImage {
@@ -592,6 +603,7 @@
   }
   .partnerImage img {
     width: 85%;
+    mix-blend-mode: overlay;
   }
   .partnerText p {
     font-size: 0.8rem;

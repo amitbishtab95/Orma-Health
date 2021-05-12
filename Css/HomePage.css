@@ -276,7 +276,8 @@
   background-color: #f6faff;
   margin-top: 0% !important;
   /* padding-bottom: 5%; */
-  padding: 5% 0;
+  padding-top: 5%;
+  padding-bottom: 4%;
   /* background-color: lawngreen; */
 }
 .innerThirdSection {
@@ -621,6 +622,9 @@
   font-family: "Poppins";
   font-weight: 300;
   color: #fff;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 167.5%;
 }
 .copyrights {
   margin-top: 1.2rem;
@@ -629,6 +633,9 @@
   font-family: "Poppins";
   font-weight: 300;
   color: #fff;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 167.5%;
 }
 .footerMaps {
   display: flex;
@@ -642,6 +649,7 @@
 .footerCompany ul {
   list-style: none;
   margin-top: 5%;
+  padding-left: 0;
 }
 .footerCompany ul li {
   font-family: "Poppins";
