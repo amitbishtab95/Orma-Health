@@ -287,7 +287,7 @@
 .partnerImage img {
   width: 65%;
   object-fit: contain;
-  mix-blend-mode: multiply;
+  /* mix-blend-mode: multiply; */
 }
 .partnerText h4 {
   font-family: "Poppins";
@@ -595,7 +595,9 @@
     padding: 1.5rem;
   }
   .partnerText {
-    padding: 1rem;
+    /* padding: 1rem; */
+    padding-left: 0;
+    padding-right: 0;
     padding-bottom: 0;
   }
   .partnerImage {
@@ -603,7 +605,7 @@
   }
   .partnerImage img {
     width: 85%;
-    mix-blend-mode: overlay;
+    /* mix-blend-mode: overlay; */
   }
   .partnerText p {
     font-size: 0.8rem;

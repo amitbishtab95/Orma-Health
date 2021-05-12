@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./Css/HomePage.css">
     <link rel="stylesheet" href="./Css/owl.carousel.min.css">
     <link rel="stylesheet" href="./Css/owl.theme.default.min.css">
-
+    <link rel="stylesheet" href="./Css/typed.css">
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -89,9 +89,13 @@
             <div class="innerLanding">
                 <div class="contentArea">
                     <div>
-                        <h1 id="changeText">
+                        <h1 id="changeText" class="typing-container">
                             <!-- The Missing Piece for  -->
                             <!-- <span ></span> -->
+
+                            <span id="sentence" class="sentence"></span>
+                            <span id="feature-text"></span>
+                            <!-- <span class="input-cursor"></span> -->
                         </h1>
                         <p class="contentArea-p-one">With its network of connected devices and proprietary analytics,
                             Orma
@@ -445,6 +449,7 @@
 
     <script src="./Js/owl.carousel.min.js"></script>
     <script src="./Css/Nav.js"></script>
+    <script src="./Js/typedEffect.js"></script>
     <script>
         $('.owl-carousel').owlCarousel({
             loop: false,
@@ -466,22 +471,12 @@
         });
     </script>
 
-    <script>
+    <!-- <script>
         var text = ["Manage Chronic Conditions", "Complete Care Continuum",
             "Prevent Hospitalization", "Enable Virtual Wellness Visits",
             "Improve Practice Finance "
         ];
         var counter = 0;
-
-        // new TypeIt("#changeText", {
-        //     strings: ["Managing Chronic Conditions", "Completing Care Continuum",
-        //         "Preventing Unnecessary Hospitalization", "Enabling Virtual Wellness Visits",
-        //         "Improving Practice Finance "
-        //     ],
-        //     speed: 40,
-        //     // waitUntilVisible: true,
-        //     // startDelete: true
-        // }).go();
         var elem = document.getElementById("changeText");
         elem.innerHTML = text[counter];
         counter++;
@@ -493,10 +488,9 @@
             counter++;
             if (counter >= text.length) {
                 counter = 0;
-                // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
             }
         }
-    </script>
+    </script> -->
 </body>
 
 </html>
