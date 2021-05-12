@@ -1297,6 +1297,10 @@
     justify-content: center;
   }
   .footerMapImage img {
-    width: 100%;
+    /* width: 100%; */
+  }
+  .footerMapImage iframe {
+    width: 340px;
+    height: 170px;
   }
 }
