@@ -310,6 +310,9 @@ html {
   .aboutSection-content p {
     font-size: 0.8rem;
   }
+  .aboutPhotoSection {
+    padding-bottom: 1%;
+  }
   .innerAboutPhotoSection {
     width: 100%;
     align-items: center;
