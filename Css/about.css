@@ -356,8 +356,8 @@ html {
   .photoSectionPart-bottomInner {
     width: 50%;
     margin: 0;
-    margin-bottom: 2rem;
-    /* height: 8rem; */
+    margin-bottom: 0rem;
+    height: 8rem;
     /* margin-right: 0; */
   }
   .photoSectionPart-bottomInner {
