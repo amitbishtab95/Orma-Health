@@ -898,6 +898,7 @@
   .contentArea div:nth-child(1) h1 {
     font-size: 1.5rem;
     width: 60%;
+    height: 3rem;
   }
   .contentArea div:nth-child(1) p {
     font-size: 0.8rem;
