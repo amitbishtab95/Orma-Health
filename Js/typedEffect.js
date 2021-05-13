@@ -10,7 +10,7 @@ $(document).ready(async function () {
     carousel(carouselText, "#feature-text")
 });
 
-async function typeSentence(sentence, eleRef, delay = 100) {
+async function typeSentence(sentence, eleRef, delay = 65) {
     const letters = sentence.split("");
     let i = 0;
     while (i < letters.length) {
