@@ -1055,14 +1055,18 @@
   .device-features-grid-bottom {
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    /* background-color: turquoise; */
   }
   .device-features-grid-content {
     margin: 2% 0;
     width: 90%;
     /* text-align: center; */
     text-align: left;
-    /* background-color: tomato; */
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
   }
   .device-features-grid-middle::before,
   .device-features-grid-middle::after {
