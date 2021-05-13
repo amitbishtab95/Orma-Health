@@ -485,6 +485,14 @@
     flex-direction: column;
     padding-right: 0;
   }
+  .valueLandingPageImage {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 5%;
+  }
+  .valueLandingPageImage img {
+    height: 45vh;
+  }
   .valueLandingPage-content {
     padding-left: 0;
     margin-top: 2%;
@@ -498,11 +506,11 @@
     font-size: 0.8rem;
   }
   .valueLandingPageBtn {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
   }
   .valueLandingPageBtn .btn-1 {
     margin: 0;
