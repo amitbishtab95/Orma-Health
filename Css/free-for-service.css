@@ -393,7 +393,7 @@
   font-weight: 300;
   line-height: 167.5%;
   color: #1b2050;
-  margin-bottom: 1.2rem;
+  margin-bottom: 2rem;
 }
 .device-suit-photo {
   width: 70%;
@@ -404,6 +404,7 @@
   align-items: center;
   /* position: relative; */
   /* background-color: lightcoral; */
+  /* margin-left: 3%; */
 }
 .device-suit-photo img {
   width: 95%;
@@ -879,8 +880,8 @@
     font-size: 0.8rem;
   }
   .landingPageBtn {
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
   }
   .landingPageBtn button {
     /* width: 58%; */
