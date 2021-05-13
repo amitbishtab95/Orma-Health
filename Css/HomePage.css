@@ -67,6 +67,7 @@
   line-height: 130%;
   color: #1b2050;
   margin-bottom: 4%;
+  height: 2rem;
 }
 .contentArea div:nth-child(1) p {
   font-family: Poppins;
