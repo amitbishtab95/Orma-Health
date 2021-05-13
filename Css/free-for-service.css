@@ -149,6 +149,9 @@
   color: #1b2050;
   margin-bottom: 1.2rem;
 }
+.innerRevenueSection .revenue-heading .revenue-heading-mob {
+  display: none;
+}
 .innerRevenueSection .revenue-heading p {
   font-family: "Poppins";
   font-style: normal;
@@ -900,6 +903,13 @@
     padding: 0 2%;
     /* margin-bottom: 1rem; */
     /* changed at 8 */
+  }
+
+  .innerRevenueSection .revenue-heading .revenue-heading-mob {
+    display: block;
+  }
+  .innerRevenueSection .revenue-heading .revenue-heading-desk {
+    display: none;
   }
   .innerRevenueSection .revenue-heading p {
     font-size: 0.8rem;
