@@ -168,6 +168,13 @@
   padding: 2% 5%;
   /* background-color: chartreuse; */
 }
+.revenue-box .revenue-box-inner {
+  /* text-align: center; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+}
 .revenue-box .revenue-box-inner h3 {
   font-family: "Poppins";
   font-style: normal;
@@ -176,6 +183,13 @@
   line-height: 24px;
   color: #000000d9;
   margin-bottom: 2%;
+  text-align: center;
+}
+.slidecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 /* .revenue-box-inner .revenue-input input {
   background: #fbfbfb;

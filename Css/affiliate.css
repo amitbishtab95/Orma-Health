@@ -292,8 +292,8 @@ form .form-row div:nth-child(2) {
     font-size: 0.8rem;
   }
   .affiliateLandingPageBtn {
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
   }
   .affiliateLandingPageBtn button {
     /* width: 50%; */
