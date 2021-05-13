@@ -275,6 +275,10 @@
   flex-direction: column; */
   /* text-align: center; */
 }
+.partnerText3,
+.partnerText1 {
+  padding-left: 3rem;
+}
 .mainPartnersCards .partnerCard:nth-child(2) .partnerText {
   /* text-align: right; */
 }
@@ -394,6 +398,10 @@
     flex-direction: column-reverse;
     align-items: unset;
     /* background-color: gray; */
+  }
+  .partnerText3,
+  .partnerText1 {
+    padding-left: 0;
   }
   .partnerText,
   .partnerImage {
