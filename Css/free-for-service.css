@@ -1013,7 +1013,7 @@
   }
   /* device Feature  */
   .device-featurs-inner {
-    width: 94%;
+    width: 90%;
   }
   .device-feature-heading {
     /* margin-top: 8%; */
@@ -1034,7 +1034,7 @@
   }
   .device-features-grid-content {
     margin: 2% 0;
-    width: 90%;
+    width: 100%;
     /* text-align: center; */
     text-align: left;
     /* background-color: tomato; */
