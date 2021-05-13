@@ -343,7 +343,7 @@
   width: 33rem;
 }
 .innerFourSection .innerFourSection-right {
-  padding-left: 7%;
+  padding-left: 12%;
   display: flex;
   flex-direction: column;
 }
@@ -599,7 +599,8 @@
   align-items: center;
   /* justify-content: center; */
   margin-bottom: 1.2rem;
-  margin-top: 1.2rem;
+  /* margin-top: 1.2rem; */
+  margin-top: 0;
 }
 .footerLogo {
   min-width: 30px;
@@ -625,7 +626,7 @@
 }
 .footerInfo,
 .copyrights {
-  margin-left: 2.1rem;
+  margin-left: 2.2rem;
 }
 .footerInfo p {
   font-family: "Poppins";
