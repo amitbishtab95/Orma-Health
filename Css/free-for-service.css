@@ -362,7 +362,7 @@
   align-items: center;
   flex-direction: column;
   background-color: #e5e5e5;
-  padding-bottom: 8%;
+  padding-bottom: 5%;
   padding-top: 5%;
 }
 .inner-device-suit {
@@ -396,26 +396,45 @@
   margin-bottom: 2rem;
 }
 .device-suit-photo {
-  width: 70%;
+  width: 85%;
   /* margin-top: 3%; */
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  /* flex-direction: column; */
+  justify-content: center !important;
   align-items: center;
-  /* position: relative; */
+  flex-wrap: wrap;
   /* background-color: lightcoral; */
   /* margin-left: 3%; */
 }
-.device-suit-photo img {
-  width: 95%;
+.allOne {
+  width: 20%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: #3a2a2a; */
 }
-.device-suit-text {
+.allOne h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  text-align: center;
+  color: #1b2050;
+  margin: 0;
+}
+.device-suit-photo img {
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+/* .device-suit-text {
   width: 100%;
   display: flex;
   position: relative;
-  /* background-color: greenyellow; */
-}
-.device-suit-text h5:nth-child(1) {
+  background-color: greenyellow;
+} */
+/* .device-suit-text h5:nth-child(1) {
   position: absolute;
   left: 5%;
 }
@@ -434,7 +453,7 @@
 .device-suit-text h5:nth-child(5) {
   position: absolute;
   right: -1%;
-}
+} */
 
 /* device Feature  */
 .device-features {
@@ -750,9 +769,15 @@
   .device-suit-heading p {
     font-size: 1.3rem;
   }
-  .device-suit-text {
-    display: none;
+  .device-suit-photo {
+    width: 100%;
   }
+  .allOne h5 {
+    font-size: 1.3rem;
+  }
+  /* .device-suit-text {
+    display: none;
+  } */
   /* device Feature  */
   .device-features-grid {
     align-items: unset;
@@ -1028,13 +1053,21 @@
   }
   .device-suit-heading p {
     font-size: 0.8rem;
+    margin-bottom: 0;
   }
-  .device-suit-text {
+  /* .device-suit-text {
     display: none;
-  }
+  } */
   .device-suit-photo {
     width: 100%;
-    margin-bottom: 2%;
+
+    /* margin-bottom: 2%; */
+  }
+  .allOne {
+    width: 50%;
+  }
+  .allOne h5 {
+    font-size: 0.8rem;
   }
   /* device Feature  */
   .device-featurs-inner {
