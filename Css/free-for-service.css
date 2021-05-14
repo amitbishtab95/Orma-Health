@@ -416,13 +416,20 @@
   /* background-color: #3a2a2a; */
 }
 .allOne h5 {
-  font-family: "Poppins";
+  /* font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   line-height: 130%;
   text-align: center;
-  color: #1b2050;
+  color: #1b2050; */
   margin: 0;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  line-height: 167.5%;
+  text-align: center;
+  color: #484848;
 }
 .device-suit-photo img {
   width: 100%;
